@@ -40,6 +40,7 @@ namespace Time_Table_managemnt
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.elipseControl1 = new Time_Table_managemnt.ElipseControl();
             this.materialTabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -53,6 +54,7 @@ namespace Time_Table_managemnt
             this.materialTabControl1.Controls.Add(this.tabPage5);
             this.materialTabControl1.Controls.Add(this.tabPage6);
             this.materialTabControl1.Controls.Add(this.tabPage7);
+            this.materialTabControl1.Controls.Add(this.tabPage8);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.ImageList = this.imageList1;
@@ -61,7 +63,7 @@ namespace Time_Table_managemnt
             this.materialTabControl1.Multiline = true;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(749, 709);
+            this.materialTabControl1.Size = new System.Drawing.Size(850, 823);
             this.materialTabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -71,7 +73,7 @@ namespace Time_Table_managemnt
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(741, 666);
+            this.tabPage1.Size = new System.Drawing.Size(842, 780);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "HOME";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -82,7 +84,7 @@ namespace Time_Table_managemnt
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(741, 666);
+            this.tabPage2.Size = new System.Drawing.Size(842, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "lecturer";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -93,7 +95,7 @@ namespace Time_Table_managemnt
             this.tabPage3.ImageKey = "icons8-student-male-48.png";
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(741, 666);
+            this.tabPage3.Size = new System.Drawing.Size(842, 780);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Students";
             // 
@@ -102,7 +104,7 @@ namespace Time_Table_managemnt
             this.tabPage4.ImageKey = "icons8-papers-64.png";
             this.tabPage4.Location = new System.Drawing.Point(4, 39);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(741, 666);
+            this.tabPage4.Size = new System.Drawing.Size(842, 780);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Subjects";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -112,7 +114,7 @@ namespace Time_Table_managemnt
             this.tabPage5.ImageKey = "icons8-tags-64.png";
             this.tabPage5.Location = new System.Drawing.Point(4, 39);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(741, 666);
+            this.tabPage5.Size = new System.Drawing.Size(842, 780);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Tags";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -122,19 +124,19 @@ namespace Time_Table_managemnt
             this.tabPage6.ImageKey = "icons8-time-100.png";
             this.tabPage6.Location = new System.Drawing.Point(4, 39);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(741, 666);
+            this.tabPage6.Size = new System.Drawing.Size(842, 780);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Sessions";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // tabPage7
             // 
-            this.tabPage7.ImageKey = "icons8-museum-64.png";
+            this.tabPage7.ImageKey = "icons8-time-machine-64 (1).png";
             this.tabPage7.Location = new System.Drawing.Point(4, 39);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(741, 666);
+            this.tabPage7.Size = new System.Drawing.Size(842, 780);
             this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "HALL";
+            this.tabPage7.Text = "WorkDay";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // imageList1
@@ -147,6 +149,20 @@ namespace Time_Table_managemnt
             this.imageList1.Images.SetKeyName(3, "icons8-time-100.png");
             this.imageList1.Images.SetKeyName(4, "icons8-papers-64.png");
             this.imageList1.Images.SetKeyName(5, "icons8-lecturer-64.png");
+            this.imageList1.Images.SetKeyName(6, "icons8-day-view-64.png");
+            this.imageList1.Images.SetKeyName(7, "icons8-plus-1-day-16.png");
+            this.imageList1.Images.SetKeyName(8, "icons8-time-machine-64 (1).png");
+            this.imageList1.Images.SetKeyName(9, "icons8-time-machine-64.png");
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.ImageKey = "icons8-museum-64.png";
+            this.tabPage8.Location = new System.Drawing.Point(4, 39);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(842, 780);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Hall";
+            this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // elipseControl1
             // 
@@ -157,7 +173,7 @@ namespace Time_Table_managemnt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(755, 715);
+            this.ClientSize = new System.Drawing.Size(856, 829);
             this.Controls.Add(this.materialTabControl1);
             this.DrawerTabControl = this.materialTabControl1;
             this.Name = "Form1";
@@ -180,6 +196,7 @@ namespace Time_Table_managemnt
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage7;
         private ElipseControl elipseControl1;
+        private System.Windows.Forms.TabPage tabPage8;
     }
 }
 
