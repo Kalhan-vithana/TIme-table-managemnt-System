@@ -9,4 +9,3 @@ C:\Users\HP\Desktop\Time-Table-managemnt\obj\Debug\Time-Table-managemnt.csproj.C
 C:\Users\HP\Desktop\Time-Table-managemnt\obj\Debug\Time-Table-managemnt.csproj.CopyComplete
 C:\Users\HP\Desktop\Time-Table-managemnt\obj\Debug\Time-Table-managemnt.exe
 C:\Users\HP\Desktop\Time-Table-managemnt\obj\Debug\Time-Table-managemnt.pdb
-C:\Users\HP\Desktop\Time-Table-managemnt\obj\Debug\Time-Table-managemnt.csprojAssemblyReference.cache
