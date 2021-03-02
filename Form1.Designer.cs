@@ -39,8 +39,8 @@ namespace Time_Table_managemnt
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.elipseControl1 = new Time_Table_managemnt.ElipseControl();
             this.materialTabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -92,7 +92,7 @@ namespace Time_Table_managemnt
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.White;
-            this.tabPage3.ImageKey = "icons8-student-male-48.png";
+            this.tabPage3.ImageKey = "icons8-student-male-64.png";
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(842, 780);
@@ -101,7 +101,7 @@ namespace Time_Table_managemnt
             // 
             // tabPage4
             // 
-            this.tabPage4.ImageKey = "icons8-papers-64.png";
+            this.tabPage4.ImageKey = "icons8-paper-64.png";
             this.tabPage4.Location = new System.Drawing.Point(4, 39);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(842, 780);
@@ -139,6 +139,16 @@ namespace Time_Table_managemnt
             this.tabPage7.Text = "WorkDay";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // tabPage8
+            // 
+            this.tabPage8.ImageKey = "icons8-museum-64 (1).png";
+            this.tabPage8.Location = new System.Drawing.Point(4, 39);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(842, 780);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Hall";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -153,16 +163,12 @@ namespace Time_Table_managemnt
             this.imageList1.Images.SetKeyName(7, "icons8-plus-1-day-16.png");
             this.imageList1.Images.SetKeyName(8, "icons8-time-machine-64 (1).png");
             this.imageList1.Images.SetKeyName(9, "icons8-time-machine-64.png");
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.ImageKey = "icons8-museum-64.png";
-            this.tabPage8.Location = new System.Drawing.Point(4, 39);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(842, 780);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Hall";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.imageList1.Images.SetKeyName(10, "icons8-museum-64 (2).png");
+            this.imageList1.Images.SetKeyName(11, "icons8-museum-64 (1).png");
+            this.imageList1.Images.SetKeyName(12, "icons8-book-64.png");
+            this.imageList1.Images.SetKeyName(13, "icons8-student-male-64.png");
+            this.imageList1.Images.SetKeyName(14, "icons8-plus-1-day-40.png");
+            this.imageList1.Images.SetKeyName(15, "icons8-paper-64.png");
             // 
             // elipseControl1
             // 
