@@ -126,7 +126,7 @@ namespace Time_Table_managemnt
             this.panel1.Controls.Add(this.materialButton7);
             this.panel1.Location = new System.Drawing.Point(21, 109);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(760, 521);
+            this.panel1.Size = new System.Drawing.Size(760, 529);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 

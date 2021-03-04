@@ -32,7 +32,6 @@ namespace Time_Table_managemnt
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Tag));
             this.elipseControl1 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl2 = new Time_Table_managemnt.ElipseControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
@@ -43,9 +42,10 @@ namespace Time_Table_managemnt
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // elipseControl1
@@ -57,16 +57,6 @@ namespace Time_Table_managemnt
             // 
             this.elipseControl2.CornerRadius = 70;
             this.elipseControl2.TargetControl = this.panel1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 68);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(779, 636);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel1
             // 
@@ -81,7 +71,7 @@ namespace Time_Table_managemnt
             this.panel1.Controls.Add(this.materialButton7);
             this.panel1.Location = new System.Drawing.Point(24, 111);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(740, 530);
+            this.panel1.Size = new System.Drawing.Size(742, 534);
             this.panel1.TabIndex = 10;
             // 
             // materialLabel3
@@ -134,7 +124,7 @@ namespace Time_Table_managemnt
             // 
             this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox2.Depth = 0;
-            this.materialTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.materialTextBox2.Font = new System.Drawing.Font("Roboto", 12F);
             this.materialTextBox2.Location = new System.Drawing.Point(83, 215);
             this.materialTextBox2.MaxLength = 50;
             this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
@@ -166,7 +156,7 @@ namespace Time_Table_managemnt
             // 
             this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialTextBox1.Depth = 0;
-            this.materialTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 12F);
             this.materialTextBox1.Location = new System.Drawing.Point(83, 87);
             this.materialTextBox1.MaxLength = 50;
             this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
@@ -215,6 +205,16 @@ namespace Time_Table_managemnt
             this.materialButton7.UseAccentColor = false;
             this.materialButton7.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(6, 68);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(779, 636);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Add_Tag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -224,12 +224,12 @@ namespace Time_Table_managemnt
             this.Controls.Add(this.pictureBox1);
             this.Name = "Add_Tag";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add_Tag";
+            this.Text = "Add Tag";
             this.Load += new System.EventHandler(this.Add_Tag_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

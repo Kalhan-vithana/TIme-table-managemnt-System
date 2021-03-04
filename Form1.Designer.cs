@@ -125,6 +125,9 @@ namespace Time_Table_managemnt
             this.elipseControl8 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl9 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl10 = new Time_Table_managemnt.ElipseControl();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -170,6 +173,9 @@ namespace Time_Table_managemnt
             this.materialTabControl1.Controls.Add(this.tabPage6);
             this.materialTabControl1.Controls.Add(this.tabPage7);
             this.materialTabControl1.Controls.Add(this.tabPage8);
+            this.materialTabControl1.Controls.Add(this.tabPage9);
+            this.materialTabControl1.Controls.Add(this.tabPage10);
+            this.materialTabControl1.Controls.Add(this.tabPage11);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.ImageList = this.imageList1;
@@ -1313,7 +1319,7 @@ namespace Time_Table_managemnt
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Size = new System.Drawing.Size(1115, 1053);
             this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Hall";
+            this.tabPage8.Text = "Location";
             this.tabPage8.UseVisualStyleBackColor = true;
             this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
             // 
@@ -1337,6 +1343,10 @@ namespace Time_Table_managemnt
             this.imageList1.Images.SetKeyName(13, "icons8-student-male-64.png");
             this.imageList1.Images.SetKeyName(14, "icons8-plus-1-day-40.png");
             this.imageList1.Images.SetKeyName(15, "icons8-paper-64.png");
+            this.imageList1.Images.SetKeyName(16, "icons8-handshake-64.png");
+            this.imageList1.Images.SetKeyName(17, "icons8-dashboard-64.png");
+            this.imageList1.Images.SetKeyName(18, "icons8-table-64.png");
+            this.imageList1.Images.SetKeyName(19, "icons8-table-100.png");
             // 
             // elipseControl1
             // 
@@ -1382,6 +1392,39 @@ namespace Time_Table_managemnt
             // 
             this.elipseControl10.CornerRadius = 70;
             this.elipseControl10.TargetControl = this.Tag1panel;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage9.BackgroundImage")));
+            this.tabPage9.ImageKey = "icons8-dashboard-64.png";
+            this.tabPage9.Location = new System.Drawing.Point(4, 39);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(1115, 1053);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Hall";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage10.BackgroundImage")));
+            this.tabPage10.ImageKey = "icons8-handshake-64.png";
+            this.tabPage10.Location = new System.Drawing.Point(4, 39);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Size = new System.Drawing.Size(1115, 1053);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "Requirements";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage11.BackgroundImage")));
+            this.tabPage11.ImageKey = "icons8-table-64.png";
+            this.tabPage11.Location = new System.Drawing.Point(4, 39);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Size = new System.Drawing.Size(1115, 1053);
+            this.tabPage11.TabIndex = 10;
+            this.tabPage11.Text = "TimeTable";
+            this.tabPage11.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1533,6 +1576,9 @@ namespace Time_Table_managemnt
         private MaterialSkin.Controls.MaterialTextBox materialTextBox10;
         private MaterialSkin.Controls.MaterialLabel materialLabel18;
         private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage tabPage11;
     }
 }
 

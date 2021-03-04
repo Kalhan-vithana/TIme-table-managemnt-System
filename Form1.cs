@@ -21,7 +21,7 @@ namespace Time_Table_managemnt
             materialskinmanager.EnforceBackcolorOnAllComponents = true;
             materialskinmanager.AddFormToManage(this);
             materialskinmanager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
-            materialskinmanager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.BlueGrey800, MaterialSkin.Primary.DeepPurple700, MaterialSkin.Primary.Indigo100, MaterialSkin.Accent.Pink200, MaterialSkin.TextShade.WHITE);
+            materialskinmanager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.BlueGrey800, MaterialSkin.Primary.Grey800, MaterialSkin.Primary.Indigo100, MaterialSkin.Accent.Pink200, MaterialSkin.TextShade.WHITE);
 
 
         }
