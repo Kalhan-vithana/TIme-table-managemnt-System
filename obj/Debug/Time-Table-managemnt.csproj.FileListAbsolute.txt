@@ -26,7 +26,6 @@ C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.A
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.DeleteStudents.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.updateStudents.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.UPdateUserControl1.resources
-C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Home.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.StudentMenue.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Add_Tag.resources
