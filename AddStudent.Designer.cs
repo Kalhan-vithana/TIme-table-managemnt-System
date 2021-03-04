@@ -35,6 +35,7 @@ namespace Time_Table_managemnt
             this.elipseControl1 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl2 = new Time_Table_managemnt.ElipseControl();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTextBox3 = new MaterialSkin.Controls.MaterialTextBox();
@@ -51,7 +52,6 @@ namespace Time_Table_managemnt
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -129,6 +129,25 @@ namespace Time_Table_managemnt
             this.panel1.Size = new System.Drawing.Size(760, 521);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // materialButton2
+            // 
+            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton2.Depth = 0;
+            this.materialButton2.DrawShadows = true;
+            this.materialButton2.HighEmphasis = true;
+            this.materialButton2.Icon = null;
+            this.materialButton2.Location = new System.Drawing.Point(502, 437);
+            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton2.Name = "materialButton2";
+            this.materialButton2.Size = new System.Drawing.Size(77, 36);
+            this.materialButton2.TabIndex = 15;
+            this.materialButton2.Text = "Update";
+            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton2.UseAccentColor = false;
+            this.materialButton2.UseVisualStyleBackColor = true;
+            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click);
             // 
             // materialButton1
             // 
@@ -335,25 +354,6 @@ namespace Time_Table_managemnt
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // materialButton2
-            // 
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.DrawShadows = true;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(502, 437);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.Size = new System.Drawing.Size(77, 36);
-            this.materialButton2.TabIndex = 15;
-            this.materialButton2.Text = "Update";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
-            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click);
-            // 
             // AddStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -365,7 +365,7 @@ namespace Time_Table_managemnt
             this.Controls.Add(this.pictureBox2);
             this.Name = "AddStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddStudent";
+            this.Text = "Add Student";
             this.Load += new System.EventHandler(this.AddStudent_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

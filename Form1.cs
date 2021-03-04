@@ -20,8 +20,8 @@ namespace Time_Table_managemnt
             materialskinmanager = MaterialSkin.MaterialSkinManager.Instance;
             materialskinmanager.EnforceBackcolorOnAllComponents = true;
             materialskinmanager.AddFormToManage(this);
-            materialskinmanager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
-            materialskinmanager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Indigo500, MaterialSkin.Primary.Indigo700, MaterialSkin.Primary.Indigo100, MaterialSkin.Accent.Pink200, MaterialSkin.TextShade.WHITE);
+            materialskinmanager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
+            materialskinmanager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.BlueGrey800, MaterialSkin.Primary.DeepPurple700, MaterialSkin.Primary.Indigo100, MaterialSkin.Accent.Pink200, MaterialSkin.TextShade.WHITE);
 
 
         }
@@ -57,6 +57,7 @@ namespace Time_Table_managemnt
 
             panel1.Show();
             panel1.BringToFront();
+            
 
           
 
@@ -198,6 +199,16 @@ namespace Time_Table_managemnt
         private void pictureBox11_Click_1(object sender, EventArgs e)
         {
             tagpanel2.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tagpanel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
