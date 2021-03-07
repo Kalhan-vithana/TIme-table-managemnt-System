@@ -24,22 +24,8 @@ namespace Time_Table_managemnt
             materialskinmanager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.BlueGrey800, MaterialSkin.Primary.Grey800, MaterialSkin.Primary.Indigo100, MaterialSkin.Accent.Pink200, MaterialSkin.TextShade.WHITE);
 
 
-        
-
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            panel1.Hide();
-            Updatepanel2.Hide();
-            Tag1panel.Hide();
-            tagpanel2.Hide();
-
-            panel1.Location = new Point(
-          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
-            this.panel1.Anchor = AnchorStyles.None;
-
+      
+            
             Updatepanel2.Location = new Point(
               this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
             this.Updatepanel2.Anchor = AnchorStyles.None;
@@ -55,6 +41,21 @@ namespace Time_Table_managemnt
             tagpanel2.Location = new Point(
       this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
             this.tagpanel2.Anchor = AnchorStyles.None;
+
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            panel1.Hide();
+            Updatepanel2.Hide();
+            Tag1panel.Hide();
+            tagpanel2.Hide();
+            panel1.Location = new Point(
+     this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.panel1.Anchor = AnchorStyles.None;
+           
+
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -282,6 +283,56 @@ namespace Time_Table_managemnt
         }
 
         private void materialTabSelector1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            Updatepanel2.Hide();
+        }
+
+        private void pictureBox10_Click_2(object sender, EventArgs e)
+        {
+            panel1.Hide();
+        }
+
+        private void materialTabSelector4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click_1(object sender, EventArgs e)
+        {
+            Tag1panel.Hide();
+        }
+
+        private void pictureBox11_Click_2(object sender, EventArgs e)
+        {
+            tagpanel2.Hide();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click_1(object sender, EventArgs e)
         {
 
         }

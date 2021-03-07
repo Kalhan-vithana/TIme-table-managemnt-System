@@ -32,3 +32,4 @@ C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.A
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Delete_Tags.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Manage_Tags.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Welcome.resources
+C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csprojAssemblyReference.cache
