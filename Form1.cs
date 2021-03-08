@@ -210,5 +210,143 @@ namespace Time_Table_managemnt
         {
 
         }
-    }
+
+		private void panel1_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void addworkingpanel_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void addworkingButton_Click(object sender, EventArgs e)
+		{
+            addworkingpanel.Show();
+            addworkingpanel.BringToFront();
+		}
+
+		private void addworkingpictureBox_Click(object sender, EventArgs e)
+		{
+            addworkingpanel.Hide();
+		}
+
+		private void checkBox4_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void checkBox5_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void manageworkingButton_Click(object sender, EventArgs e)
+		{
+            manageworkingpanel.Show();
+            manageworkingpanel.BringToFront();
+		}
+
+		private void manageworkingpictureBox_Click(object sender, EventArgs e)
+		{
+            manageworkingpanel.Hide();
+		}
+
+		private void materialLabel36_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialLabel34_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialButton19_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialLabel42_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialTextBox13_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void panel2_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void materialComboBox12_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialLabel45_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void panel4_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            updatelocationpanel.Hide();
+            notavailsessiontabPage.Show();
+        }
+
+		private void timetabPage_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pictureBox14_Click(object sender, EventArgs e)
+		{
+           
+		}
+
+		private void allocationpanel_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void materialLabel48_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void panel2_Paint_1(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void homepictureBoxnotavail_Click(object sender, EventArgs e)
+		{
+            
+        }
+
+		private void materialLabel45_Click_1(object sender, EventArgs e)
+		{
+
+		}
+
+		private void notavailsessiontabPage_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void tabPage10_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
