@@ -152,6 +152,8 @@ namespace Time_Table_managemnt
 			this.pictureBox6 = new System.Windows.Forms.PictureBox();
 			this.tabPage6 = new System.Windows.Forms.TabPage();
 			this.tabPage7 = new System.Windows.Forms.TabPage();
+			this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
+			this.button1 = new System.Windows.Forms.Button();
 			this.tabPage8 = new System.Windows.Forms.TabPage();
 			this.tabPage9 = new System.Windows.Forms.TabPage();
 			this.tabPage10 = new System.Windows.Forms.TabPage();
@@ -195,8 +197,6 @@ namespace Time_Table_managemnt
 			this.imageList1 = new System.Windows.Forms.ImageList(this.components);
 			this.materialTabSelector2 = new MaterialSkin.Controls.MaterialTabSelector();
 			this.pictureBox12 = new System.Windows.Forms.PictureBox();
-			this.button1 = new System.Windows.Forms.Button();
-			this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
 			this.elipseControl1 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl2 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl3 = new Time_Table_managemnt.ElipseControl();
@@ -218,6 +218,7 @@ namespace Time_Table_managemnt
 			this.elipseControl19 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl20 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl21 = new Time_Table_managemnt.ElipseControl();
+			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.materialTabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.Logopanel2.SuspendLayout();
@@ -1927,6 +1928,7 @@ namespace Time_Table_managemnt
 			// tabPage7
 			// 
 			this.tabPage7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage7.BackgroundImage")));
+			this.tabPage7.Controls.Add(this.textBox1);
 			this.tabPage7.Controls.Add(this.materialTextBox1);
 			this.tabPage7.Controls.Add(this.button1);
 			this.tabPage7.ImageKey = "icons8-time-machine-64 (1).png";
@@ -1936,6 +1938,29 @@ namespace Time_Table_managemnt
 			this.tabPage7.TabIndex = 6;
 			this.tabPage7.Text = "WorkDay";
 			this.tabPage7.UseVisualStyleBackColor = true;
+			// 
+			// materialTextBox1
+			// 
+			this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.materialTextBox1.Depth = 0;
+			this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 12F);
+			this.materialTextBox1.Location = new System.Drawing.Point(402, 123);
+			this.materialTextBox1.MaxLength = 50;
+			this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
+			this.materialTextBox1.Multiline = false;
+			this.materialTextBox1.Name = "materialTextBox1";
+			this.materialTextBox1.Size = new System.Drawing.Size(247, 50);
+			this.materialTextBox1.TabIndex = 1;
+			this.materialTextBox1.Text = "";
+			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(564, 205);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(85, 46);
+			this.button1.TabIndex = 0;
+			this.button1.Text = "button1";
+			this.button1.UseVisualStyleBackColor = true;
 			// 
 			// tabPage8
 			// 
@@ -2579,29 +2604,6 @@ namespace Time_Table_managemnt
 			this.pictureBox12.TabIndex = 2;
 			this.pictureBox12.TabStop = false;
 			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(564, 205);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(85, 46);
-			this.button1.TabIndex = 0;
-			this.button1.Text = "button1";
-			this.button1.UseVisualStyleBackColor = true;
-			// 
-			// materialTextBox1
-			// 
-			this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.materialTextBox1.Depth = 0;
-			this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 12F);
-			this.materialTextBox1.Location = new System.Drawing.Point(402, 123);
-			this.materialTextBox1.MaxLength = 50;
-			this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
-			this.materialTextBox1.Multiline = false;
-			this.materialTextBox1.Name = "materialTextBox1";
-			this.materialTextBox1.Size = new System.Drawing.Size(247, 50);
-			this.materialTextBox1.TabIndex = 1;
-			this.materialTextBox1.Text = "";
-			// 
 			// elipseControl1
 			// 
 			this.elipseControl1.CornerRadius = 25;
@@ -2707,6 +2709,13 @@ namespace Time_Table_managemnt
 			this.elipseControl21.CornerRadius = 50;
 			this.elipseControl21.TargetControl = this.Logopanel2;
 			// 
+			// textBox1
+			// 
+			this.textBox1.Location = new System.Drawing.Point(564, 303);
+			this.textBox1.Name = "textBox1";
+			this.textBox1.Size = new System.Drawing.Size(100, 22);
+			this.textBox1.TabIndex = 2;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2785,6 +2794,7 @@ namespace Time_Table_managemnt
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
 			this.tabPage7.ResumeLayout(false);
+			this.tabPage7.PerformLayout();
 			this.tabPage10.ResumeLayout(false);
 			this.Requirmentspanel2.ResumeLayout(false);
 			this.materialTabControl2.ResumeLayout(false);
@@ -3003,6 +3013,7 @@ namespace Time_Table_managemnt
         private MaterialSkin.Controls.MaterialComboBox materialComboBox8;
 		private System.Windows.Forms.Button button1;
 		private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
+		private System.Windows.Forms.TextBox textBox1;
 	}
 }
 
