@@ -33,3 +33,26 @@ C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.D
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Manage_Tags.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Welcome.resources
 C:\Users\HP\Desktop\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csprojAssemblyReference.cache
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\bin\Debug\Time-Table-managemnt.exe.config
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\bin\Debug\Time-Table-managemnt.exe
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\bin\Debug\Time-Table-managemnt.pdb
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\bin\Debug\MaterialSkin.dll
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csprojAssemblyReference.cache
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Add_Tag.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.AddStudent.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Delete_Tags.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.DeleteStudents.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Form1.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Home.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Manage_Tags.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Properties.Resources.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.StudentMenue.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.StudentUserControl1.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.updateStudents.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.UPdateUserControl1.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Welcome.resources
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csproj.GenerateResource.cache
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csproj.CopyComplete
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.exe
+C:\Users\ASUS\ansel\Desktop\New folder (8)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.pdb
