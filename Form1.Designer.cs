@@ -216,22 +216,22 @@ namespace Time_Table_managemnt
 			this.elipseControl19 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl20 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl21 = new Time_Table_managemnt.ElipseControl();
-			this.panel2 = new System.Windows.Forms.Panel();
+			this.Wpanel2 = new System.Windows.Forms.Panel();
 			this.materialTabSelector7 = new MaterialSkin.Controls.MaterialTabSelector();
-			this.materialTabControl8 = new MaterialSkin.Controls.MaterialTabControl();
+			this.WmaterialTabControl8 = new MaterialSkin.Controls.MaterialTabControl();
 			this.tabPage23 = new System.Windows.Forms.TabPage();
 			this.materialLabel30 = new MaterialSkin.Controls.MaterialLabel();
 			this.materialLabel31 = new MaterialSkin.Controls.MaterialLabel();
 			this.materialLabel32 = new MaterialSkin.Controls.MaterialLabel();
-			this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
-			this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
-			this.materialButton28 = new MaterialSkin.Controls.MaterialButton();
-			this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
-			this.materialCheckbox4 = new MaterialSkin.Controls.MaterialCheckbox();
-			this.materialCheckbox5 = new MaterialSkin.Controls.MaterialCheckbox();
+			this.WmaterialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
+			this.WmaterialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
+			this.WmaterialButton28 = new MaterialSkin.Controls.MaterialButton();
+			this.WmaterialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
+			this.WmaterialCheckbox4 = new MaterialSkin.Controls.MaterialCheckbox();
+			this.WmaterialCheckbox5 = new MaterialSkin.Controls.MaterialCheckbox();
 			this.materialComboBox10 = new MaterialSkin.Controls.MaterialComboBox();
-			this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-			this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+			this.WnumericUpDown5 = new System.Windows.Forms.NumericUpDown();
+			this.WnumericUpDown6 = new System.Windows.Forms.NumericUpDown();
 			this.materialTabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.Logopanel2.SuspendLayout();
@@ -307,11 +307,11 @@ namespace Time_Table_managemnt
 			this.tabPage21.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-			this.panel2.SuspendLayout();
-			this.materialTabControl8.SuspendLayout();
+			this.Wpanel2.SuspendLayout();
+			this.WmaterialTabControl8.SuspendLayout();
 			this.tabPage23.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown6)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// materialTabControl1
@@ -1946,7 +1946,7 @@ namespace Time_Table_managemnt
 			// tabPage7
 			// 
 			this.tabPage7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage7.BackgroundImage")));
-			this.tabPage7.Controls.Add(this.panel2);
+			this.tabPage7.Controls.Add(this.Wpanel2);
 			this.tabPage7.ImageKey = "icons8-time-machine-64 (1).png";
 			this.tabPage7.Location = new System.Drawing.Point(4, 39);
 			this.tabPage7.Name = "tabPage7";
@@ -2702,18 +2702,18 @@ namespace Time_Table_managemnt
 			this.elipseControl21.CornerRadius = 50;
 			this.elipseControl21.TargetControl = this.Logopanel2;
 			// 
-			// panel2
+			// Wpanel2
 			// 
-			this.panel2.Controls.Add(this.materialTabControl8);
-			this.panel2.Controls.Add(this.materialTabSelector7);
-			this.panel2.Location = new System.Drawing.Point(265, 138);
-			this.panel2.Name = "panel2";
-			this.panel2.Size = new System.Drawing.Size(697, 558);
-			this.panel2.TabIndex = 0;
+			this.Wpanel2.Controls.Add(this.WmaterialTabControl8);
+			this.Wpanel2.Controls.Add(this.materialTabSelector7);
+			this.Wpanel2.Location = new System.Drawing.Point(265, 138);
+			this.Wpanel2.Name = "Wpanel2";
+			this.Wpanel2.Size = new System.Drawing.Size(697, 558);
+			this.Wpanel2.TabIndex = 0;
 			// 
 			// materialTabSelector7
 			// 
-			this.materialTabSelector7.BaseTabControl = this.materialTabControl8;
+			this.materialTabSelector7.BaseTabControl = this.WmaterialTabControl8;
 			this.materialTabSelector7.Depth = 0;
 			this.materialTabSelector7.Dock = System.Windows.Forms.DockStyle.Top;
 			this.materialTabSelector7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
@@ -2722,31 +2722,31 @@ namespace Time_Table_managemnt
 			this.materialTabSelector7.Name = "materialTabSelector7";
 			this.materialTabSelector7.Size = new System.Drawing.Size(697, 48);
 			this.materialTabSelector7.TabIndex = 0;
-			this.materialTabSelector7.Text = "materialTabSelector7";
+			this.materialTabSelector7.Text = "WmaterialTabSelector";
 			// 
-			// materialTabControl8
+			// WmaterialTabControl8
 			// 
-			this.materialTabControl8.Controls.Add(this.tabPage23);
-			this.materialTabControl8.Depth = 0;
-			this.materialTabControl8.Location = new System.Drawing.Point(0, 54);
-			this.materialTabControl8.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialTabControl8.Multiline = true;
-			this.materialTabControl8.Name = "materialTabControl8";
-			this.materialTabControl8.SelectedIndex = 0;
-			this.materialTabControl8.Size = new System.Drawing.Size(694, 501);
-			this.materialTabControl8.TabIndex = 1;
+			this.WmaterialTabControl8.Controls.Add(this.tabPage23);
+			this.WmaterialTabControl8.Depth = 0;
+			this.WmaterialTabControl8.Location = new System.Drawing.Point(0, 54);
+			this.WmaterialTabControl8.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialTabControl8.Multiline = true;
+			this.WmaterialTabControl8.Name = "WmaterialTabControl8";
+			this.WmaterialTabControl8.SelectedIndex = 0;
+			this.WmaterialTabControl8.Size = new System.Drawing.Size(694, 501);
+			this.WmaterialTabControl8.TabIndex = 1;
 			// 
 			// tabPage23
 			// 
-			this.tabPage23.Controls.Add(this.numericUpDown6);
-			this.tabPage23.Controls.Add(this.numericUpDown5);
+			this.tabPage23.Controls.Add(this.WnumericUpDown6);
+			this.tabPage23.Controls.Add(this.WnumericUpDown5);
 			this.tabPage23.Controls.Add(this.materialComboBox10);
-			this.tabPage23.Controls.Add(this.materialCheckbox5);
-			this.tabPage23.Controls.Add(this.materialCheckbox4);
-			this.tabPage23.Controls.Add(this.materialCheckbox3);
-			this.tabPage23.Controls.Add(this.materialButton28);
-			this.tabPage23.Controls.Add(this.materialCheckbox2);
-			this.tabPage23.Controls.Add(this.materialCheckbox1);
+			this.tabPage23.Controls.Add(this.WmaterialCheckbox5);
+			this.tabPage23.Controls.Add(this.WmaterialCheckbox4);
+			this.tabPage23.Controls.Add(this.WmaterialCheckbox3);
+			this.tabPage23.Controls.Add(this.WmaterialButton28);
+			this.tabPage23.Controls.Add(this.WmaterialCheckbox2);
+			this.tabPage23.Controls.Add(this.WmaterialCheckbox1);
 			this.tabPage23.Controls.Add(this.materialLabel32);
 			this.tabPage23.Controls.Add(this.materialLabel31);
 			this.tabPage23.Controls.Add(this.materialLabel30);
@@ -2794,98 +2794,98 @@ namespace Time_Table_managemnt
 			this.materialLabel32.TabIndex = 2;
 			this.materialLabel32.Text = "time";
 			// 
-			// materialCheckbox1
+			// WmaterialCheckbox1
 			// 
-			this.materialCheckbox1.AutoSize = true;
-			this.materialCheckbox1.Depth = 0;
-			this.materialCheckbox1.Location = new System.Drawing.Point(77, 176);
-			this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
-			this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
-			this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialCheckbox1.Name = "materialCheckbox1";
-			this.materialCheckbox1.Ripple = true;
-			this.materialCheckbox1.Size = new System.Drawing.Size(171, 37);
-			this.materialCheckbox1.TabIndex = 3;
-			this.materialCheckbox1.Text = "materialCheckbox1";
-			this.materialCheckbox1.UseVisualStyleBackColor = true;
+			this.WmaterialCheckbox1.AutoSize = true;
+			this.WmaterialCheckbox1.Depth = 0;
+			this.WmaterialCheckbox1.Location = new System.Drawing.Point(77, 176);
+			this.WmaterialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
+			this.WmaterialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
+			this.WmaterialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialCheckbox1.Name = "WmaterialCheckbox1";
+			this.WmaterialCheckbox1.Ripple = true;
+			this.WmaterialCheckbox1.Size = new System.Drawing.Size(171, 37);
+			this.WmaterialCheckbox1.TabIndex = 3;
+			this.WmaterialCheckbox1.Text = "materialCheckbox1";
+			this.WmaterialCheckbox1.UseVisualStyleBackColor = true;
 			// 
-			// materialCheckbox2
+			// WmaterialCheckbox2
 			// 
-			this.materialCheckbox2.AutoSize = true;
-			this.materialCheckbox2.Depth = 0;
-			this.materialCheckbox2.Location = new System.Drawing.Point(299, 165);
-			this.materialCheckbox2.Margin = new System.Windows.Forms.Padding(0);
-			this.materialCheckbox2.MouseLocation = new System.Drawing.Point(-1, -1);
-			this.materialCheckbox2.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialCheckbox2.Name = "materialCheckbox2";
-			this.materialCheckbox2.Ripple = true;
-			this.materialCheckbox2.Size = new System.Drawing.Size(171, 37);
-			this.materialCheckbox2.TabIndex = 4;
-			this.materialCheckbox2.Text = "materialCheckbox2";
-			this.materialCheckbox2.UseVisualStyleBackColor = true;
+			this.WmaterialCheckbox2.AutoSize = true;
+			this.WmaterialCheckbox2.Depth = 0;
+			this.WmaterialCheckbox2.Location = new System.Drawing.Point(299, 165);
+			this.WmaterialCheckbox2.Margin = new System.Windows.Forms.Padding(0);
+			this.WmaterialCheckbox2.MouseLocation = new System.Drawing.Point(-1, -1);
+			this.WmaterialCheckbox2.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialCheckbox2.Name = "WmaterialCheckbox2";
+			this.WmaterialCheckbox2.Ripple = true;
+			this.WmaterialCheckbox2.Size = new System.Drawing.Size(171, 37);
+			this.WmaterialCheckbox2.TabIndex = 4;
+			this.WmaterialCheckbox2.Text = "materialCheckbox2";
+			this.WmaterialCheckbox2.UseVisualStyleBackColor = true;
 			// 
-			// materialButton28
+			// WmaterialButton28
 			// 
-			this.materialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.materialButton28.Depth = 0;
-			this.materialButton28.DrawShadows = true;
-			this.materialButton28.HighEmphasis = true;
-			this.materialButton28.Icon = null;
-			this.materialButton28.Location = new System.Drawing.Point(318, 372);
-			this.materialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-			this.materialButton28.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialButton28.Name = "materialButton28";
-			this.materialButton28.Size = new System.Drawing.Size(58, 36);
-			this.materialButton28.TabIndex = 5;
-			this.materialButton28.Text = "save";
-			this.materialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-			this.materialButton28.UseAccentColor = false;
-			this.materialButton28.UseVisualStyleBackColor = true;
+			this.WmaterialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.WmaterialButton28.Depth = 0;
+			this.WmaterialButton28.DrawShadows = true;
+			this.WmaterialButton28.HighEmphasis = true;
+			this.WmaterialButton28.Icon = null;
+			this.WmaterialButton28.Location = new System.Drawing.Point(233, 372);
+			this.WmaterialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.WmaterialButton28.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialButton28.Name = "WmaterialButton28";
+			this.WmaterialButton28.Size = new System.Drawing.Size(58, 36);
+			this.WmaterialButton28.TabIndex = 5;
+			this.WmaterialButton28.Text = "save";
+			this.WmaterialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.WmaterialButton28.UseAccentColor = false;
+			this.WmaterialButton28.UseVisualStyleBackColor = true;
 			// 
-			// materialCheckbox3
+			// WmaterialCheckbox3
 			// 
-			this.materialCheckbox3.AutoSize = true;
-			this.materialCheckbox3.Depth = 0;
-			this.materialCheckbox3.Location = new System.Drawing.Point(77, 223);
-			this.materialCheckbox3.Margin = new System.Windows.Forms.Padding(0);
-			this.materialCheckbox3.MouseLocation = new System.Drawing.Point(-1, -1);
-			this.materialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialCheckbox3.Name = "materialCheckbox3";
-			this.materialCheckbox3.Ripple = true;
-			this.materialCheckbox3.Size = new System.Drawing.Size(171, 37);
-			this.materialCheckbox3.TabIndex = 6;
-			this.materialCheckbox3.Text = "materialCheckbox3";
-			this.materialCheckbox3.UseVisualStyleBackColor = true;
+			this.WmaterialCheckbox3.AutoSize = true;
+			this.WmaterialCheckbox3.Depth = 0;
+			this.WmaterialCheckbox3.Location = new System.Drawing.Point(77, 223);
+			this.WmaterialCheckbox3.Margin = new System.Windows.Forms.Padding(0);
+			this.WmaterialCheckbox3.MouseLocation = new System.Drawing.Point(-1, -1);
+			this.WmaterialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialCheckbox3.Name = "WmaterialCheckbox3";
+			this.WmaterialCheckbox3.Ripple = true;
+			this.WmaterialCheckbox3.Size = new System.Drawing.Size(171, 37);
+			this.WmaterialCheckbox3.TabIndex = 6;
+			this.WmaterialCheckbox3.Text = "materialCheckbox3";
+			this.WmaterialCheckbox3.UseVisualStyleBackColor = true;
 			// 
-			// materialCheckbox4
+			// WmaterialCheckbox4
 			// 
-			this.materialCheckbox4.AutoSize = true;
-			this.materialCheckbox4.Depth = 0;
-			this.materialCheckbox4.Location = new System.Drawing.Point(299, 223);
-			this.materialCheckbox4.Margin = new System.Windows.Forms.Padding(0);
-			this.materialCheckbox4.MouseLocation = new System.Drawing.Point(-1, -1);
-			this.materialCheckbox4.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialCheckbox4.Name = "materialCheckbox4";
-			this.materialCheckbox4.Ripple = true;
-			this.materialCheckbox4.Size = new System.Drawing.Size(171, 37);
-			this.materialCheckbox4.TabIndex = 7;
-			this.materialCheckbox4.Text = "materialCheckbox4";
-			this.materialCheckbox4.UseVisualStyleBackColor = true;
+			this.WmaterialCheckbox4.AutoSize = true;
+			this.WmaterialCheckbox4.Depth = 0;
+			this.WmaterialCheckbox4.Location = new System.Drawing.Point(299, 223);
+			this.WmaterialCheckbox4.Margin = new System.Windows.Forms.Padding(0);
+			this.WmaterialCheckbox4.MouseLocation = new System.Drawing.Point(-1, -1);
+			this.WmaterialCheckbox4.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialCheckbox4.Name = "WmaterialCheckbox4";
+			this.WmaterialCheckbox4.Ripple = true;
+			this.WmaterialCheckbox4.Size = new System.Drawing.Size(171, 37);
+			this.WmaterialCheckbox4.TabIndex = 7;
+			this.WmaterialCheckbox4.Text = "materialCheckbox4";
+			this.WmaterialCheckbox4.UseVisualStyleBackColor = true;
 			// 
-			// materialCheckbox5
+			// WmaterialCheckbox5
 			// 
-			this.materialCheckbox5.AutoSize = true;
-			this.materialCheckbox5.Depth = 0;
-			this.materialCheckbox5.Location = new System.Drawing.Point(498, 165);
-			this.materialCheckbox5.Margin = new System.Windows.Forms.Padding(0);
-			this.materialCheckbox5.MouseLocation = new System.Drawing.Point(-1, -1);
-			this.materialCheckbox5.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialCheckbox5.Name = "materialCheckbox5";
-			this.materialCheckbox5.Ripple = true;
-			this.materialCheckbox5.Size = new System.Drawing.Size(171, 37);
-			this.materialCheckbox5.TabIndex = 8;
-			this.materialCheckbox5.Text = "materialCheckbox5";
-			this.materialCheckbox5.UseVisualStyleBackColor = true;
+			this.WmaterialCheckbox5.AutoSize = true;
+			this.WmaterialCheckbox5.Depth = 0;
+			this.WmaterialCheckbox5.Location = new System.Drawing.Point(498, 165);
+			this.WmaterialCheckbox5.Margin = new System.Windows.Forms.Padding(0);
+			this.WmaterialCheckbox5.MouseLocation = new System.Drawing.Point(-1, -1);
+			this.WmaterialCheckbox5.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialCheckbox5.Name = "WmaterialCheckbox5";
+			this.WmaterialCheckbox5.Ripple = true;
+			this.WmaterialCheckbox5.Size = new System.Drawing.Size(171, 37);
+			this.WmaterialCheckbox5.TabIndex = 8;
+			this.WmaterialCheckbox5.Text = "materialCheckbox5";
+			this.WmaterialCheckbox5.UseVisualStyleBackColor = true;
 			// 
 			// materialComboBox10
 			// 
@@ -2909,19 +2909,19 @@ namespace Time_Table_managemnt
 			this.materialComboBox10.StartIndex = 0;
 			this.materialComboBox10.TabIndex = 9;
 			// 
-			// numericUpDown5
+			// WnumericUpDown5
 			// 
-			this.numericUpDown5.Location = new System.Drawing.Point(77, 325);
-			this.numericUpDown5.Name = "numericUpDown5";
-			this.numericUpDown5.Size = new System.Drawing.Size(120, 22);
-			this.numericUpDown5.TabIndex = 11;
+			this.WnumericUpDown5.Location = new System.Drawing.Point(77, 325);
+			this.WnumericUpDown5.Name = "WnumericUpDown5";
+			this.WnumericUpDown5.Size = new System.Drawing.Size(120, 22);
+			this.WnumericUpDown5.TabIndex = 11;
 			// 
-			// numericUpDown6
+			// WnumericUpDown6
 			// 
-			this.numericUpDown6.Location = new System.Drawing.Point(338, 325);
-			this.numericUpDown6.Name = "numericUpDown6";
-			this.numericUpDown6.Size = new System.Drawing.Size(120, 22);
-			this.numericUpDown6.TabIndex = 12;
+			this.WnumericUpDown6.Location = new System.Drawing.Point(338, 325);
+			this.WnumericUpDown6.Name = "WnumericUpDown6";
+			this.WnumericUpDown6.Size = new System.Drawing.Size(120, 22);
+			this.WnumericUpDown6.TabIndex = 12;
 			// 
 			// Form1
 			// 
@@ -3026,12 +3026,12 @@ namespace Time_Table_managemnt
 			this.tabPage21.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-			this.panel2.ResumeLayout(false);
-			this.materialTabControl8.ResumeLayout(false);
+			this.Wpanel2.ResumeLayout(false);
+			this.WmaterialTabControl8.ResumeLayout(false);
 			this.tabPage23.ResumeLayout(false);
 			this.tabPage23.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown6)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -3223,18 +3223,18 @@ namespace Time_Table_managemnt
         private ElipseControl elipseControl21;
         private MaterialSkin.Controls.MaterialComboBox materialComboBox9;
         private MaterialSkin.Controls.MaterialComboBox materialComboBox8;
-		private System.Windows.Forms.Panel panel2;
-		private MaterialSkin.Controls.MaterialTabControl materialTabControl8;
+		private System.Windows.Forms.Panel Wpanel2;
+		private MaterialSkin.Controls.MaterialTabControl WmaterialTabControl8;
 		private System.Windows.Forms.TabPage tabPage23;
-		private System.Windows.Forms.NumericUpDown numericUpDown6;
-		private System.Windows.Forms.NumericUpDown numericUpDown5;
+		private System.Windows.Forms.NumericUpDown WnumericUpDown6;
+		private System.Windows.Forms.NumericUpDown WnumericUpDown5;
 		private MaterialSkin.Controls.MaterialComboBox materialComboBox10;
-		private MaterialSkin.Controls.MaterialCheckbox materialCheckbox5;
-		private MaterialSkin.Controls.MaterialCheckbox materialCheckbox4;
-		private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
-		private MaterialSkin.Controls.MaterialButton materialButton28;
-		private MaterialSkin.Controls.MaterialCheckbox materialCheckbox2;
-		private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
+		private MaterialSkin.Controls.MaterialCheckbox WmaterialCheckbox5;
+		private MaterialSkin.Controls.MaterialCheckbox WmaterialCheckbox4;
+		private MaterialSkin.Controls.MaterialCheckbox WmaterialCheckbox3;
+		private MaterialSkin.Controls.MaterialButton WmaterialButton28;
+		private MaterialSkin.Controls.MaterialCheckbox WmaterialCheckbox2;
+		private MaterialSkin.Controls.MaterialCheckbox WmaterialCheckbox1;
 		private MaterialSkin.Controls.MaterialLabel materialLabel32;
 		private MaterialSkin.Controls.MaterialLabel materialLabel31;
 		private MaterialSkin.Controls.MaterialLabel materialLabel30;
