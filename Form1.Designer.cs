@@ -1944,7 +1944,7 @@ namespace Time_Table_managemnt
 			this.tabPage7.Name = "tabPage7";
 			this.tabPage7.Size = new System.Drawing.Size(1173, 1053);
 			this.tabPage7.TabIndex = 6;
-			this.tabPage7.Text = "WorkDay";
+			this.tabPage7.Text = "vcbn";
 			this.tabPage7.UseVisualStyleBackColor = true;
 			// 
 			// panel2
