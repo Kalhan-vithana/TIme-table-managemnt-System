@@ -218,7 +218,8 @@ namespace Time_Table_managemnt
 			this.elipseControl19 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl20 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl21 = new Time_Table_managemnt.ElipseControl();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.materialButton28 = new MaterialSkin.Controls.MaterialButton();
+			this.materialButton29 = new MaterialSkin.Controls.MaterialButton();
 			this.materialTabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.Logopanel2.SuspendLayout();
@@ -1928,7 +1929,8 @@ namespace Time_Table_managemnt
 			// tabPage7
 			// 
 			this.tabPage7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage7.BackgroundImage")));
-			this.tabPage7.Controls.Add(this.textBox1);
+			this.tabPage7.Controls.Add(this.materialButton29);
+			this.tabPage7.Controls.Add(this.materialButton28);
 			this.tabPage7.Controls.Add(this.materialTextBox1);
 			this.tabPage7.Controls.Add(this.button1);
 			this.tabPage7.ImageKey = "icons8-time-machine-64 (1).png";
@@ -2709,12 +2711,41 @@ namespace Time_Table_managemnt
 			this.elipseControl21.CornerRadius = 50;
 			this.elipseControl21.TargetControl = this.Logopanel2;
 			// 
-			// textBox1
+			// materialButton28
 			// 
-			this.textBox1.Location = new System.Drawing.Point(564, 303);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(100, 22);
-			this.textBox1.TabIndex = 2;
+			this.materialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.materialButton28.Depth = 0;
+			this.materialButton28.DrawShadows = true;
+			this.materialButton28.HighEmphasis = true;
+			this.materialButton28.Icon = null;
+			this.materialButton28.Location = new System.Drawing.Point(460, 270);
+			this.materialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.materialButton28.MouseState = MaterialSkin.MouseState.HOVER;
+			this.materialButton28.Name = "materialButton28";
+			this.materialButton28.Size = new System.Drawing.Size(166, 36);
+			this.materialButton28.TabIndex = 3;
+			this.materialButton28.Text = "materialButton28";
+			this.materialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.materialButton28.UseAccentColor = false;
+			this.materialButton28.UseVisualStyleBackColor = true;
+			// 
+			// materialButton29
+			// 
+			this.materialButton29.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.materialButton29.Depth = 0;
+			this.materialButton29.DrawShadows = true;
+			this.materialButton29.HighEmphasis = true;
+			this.materialButton29.Icon = null;
+			this.materialButton29.Location = new System.Drawing.Point(407, 220);
+			this.materialButton29.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.materialButton29.MouseState = MaterialSkin.MouseState.HOVER;
+			this.materialButton29.Name = "materialButton29";
+			this.materialButton29.Size = new System.Drawing.Size(166, 36);
+			this.materialButton29.TabIndex = 4;
+			this.materialButton29.Text = "materialButton29";
+			this.materialButton29.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.materialButton29.UseAccentColor = false;
+			this.materialButton29.UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 
@@ -3013,7 +3044,8 @@ namespace Time_Table_managemnt
         private MaterialSkin.Controls.MaterialComboBox materialComboBox8;
 		private System.Windows.Forms.Button button1;
 		private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
-		private System.Windows.Forms.TextBox textBox1;
+		private MaterialSkin.Controls.MaterialButton materialButton29;
+		private MaterialSkin.Controls.MaterialButton materialButton28;
 	}
 }
 
