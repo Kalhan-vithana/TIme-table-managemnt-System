@@ -217,7 +217,7 @@ namespace Time_Table_managemnt
 			this.elipseControl20 = new Time_Table_managemnt.ElipseControl();
 			this.elipseControl21 = new Time_Table_managemnt.ElipseControl();
 			this.Wpanel2 = new System.Windows.Forms.Panel();
-			this.materialTabSelector7 = new MaterialSkin.Controls.MaterialTabSelector();
+			this.WmaterialTabSelector7 = new MaterialSkin.Controls.MaterialTabSelector();
 			this.WmaterialTabControl8 = new MaterialSkin.Controls.MaterialTabControl();
 			this.tabPage23 = new System.Windows.Forms.TabPage();
 			this.materialLabel30 = new MaterialSkin.Controls.MaterialLabel();
@@ -2705,24 +2705,24 @@ namespace Time_Table_managemnt
 			// Wpanel2
 			// 
 			this.Wpanel2.Controls.Add(this.WmaterialTabControl8);
-			this.Wpanel2.Controls.Add(this.materialTabSelector7);
+			this.Wpanel2.Controls.Add(this.WmaterialTabSelector7);
 			this.Wpanel2.Location = new System.Drawing.Point(265, 138);
 			this.Wpanel2.Name = "Wpanel2";
 			this.Wpanel2.Size = new System.Drawing.Size(697, 558);
 			this.Wpanel2.TabIndex = 0;
 			// 
-			// materialTabSelector7
+			// WmaterialTabSelector7
 			// 
-			this.materialTabSelector7.BaseTabControl = this.WmaterialTabControl8;
-			this.materialTabSelector7.Depth = 0;
-			this.materialTabSelector7.Dock = System.Windows.Forms.DockStyle.Top;
-			this.materialTabSelector7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.materialTabSelector7.Location = new System.Drawing.Point(0, 0);
-			this.materialTabSelector7.MouseState = MaterialSkin.MouseState.HOVER;
-			this.materialTabSelector7.Name = "materialTabSelector7";
-			this.materialTabSelector7.Size = new System.Drawing.Size(697, 48);
-			this.materialTabSelector7.TabIndex = 0;
-			this.materialTabSelector7.Text = "WmaterialTabSelector";
+			this.WmaterialTabSelector7.BaseTabControl = this.WmaterialTabControl8;
+			this.WmaterialTabSelector7.Depth = 0;
+			this.WmaterialTabSelector7.Dock = System.Windows.Forms.DockStyle.Top;
+			this.WmaterialTabSelector7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.WmaterialTabSelector7.Location = new System.Drawing.Point(0, 0);
+			this.WmaterialTabSelector7.MouseState = MaterialSkin.MouseState.HOVER;
+			this.WmaterialTabSelector7.Name = "WmaterialTabSelector7";
+			this.WmaterialTabSelector7.Size = new System.Drawing.Size(697, 48);
+			this.WmaterialTabSelector7.TabIndex = 0;
+			this.WmaterialTabSelector7.Text = "WmaterialTabSelector";
 			// 
 			// WmaterialTabControl8
 			// 
@@ -2831,7 +2831,7 @@ namespace Time_Table_managemnt
 			this.WmaterialButton28.DrawShadows = true;
 			this.WmaterialButton28.HighEmphasis = true;
 			this.WmaterialButton28.Icon = null;
-			this.WmaterialButton28.Location = new System.Drawing.Point(233, 372);
+			this.WmaterialButton28.Location = new System.Drawing.Point(313, 372);
 			this.WmaterialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.WmaterialButton28.MouseState = MaterialSkin.MouseState.HOVER;
 			this.WmaterialButton28.Name = "WmaterialButton28";
@@ -3238,7 +3238,7 @@ namespace Time_Table_managemnt
 		private MaterialSkin.Controls.MaterialLabel materialLabel32;
 		private MaterialSkin.Controls.MaterialLabel materialLabel31;
 		private MaterialSkin.Controls.MaterialLabel materialLabel30;
-		private MaterialSkin.Controls.MaterialTabSelector materialTabSelector7;
+		private MaterialSkin.Controls.MaterialTabSelector WmaterialTabSelector7;
 	}
 }
 
