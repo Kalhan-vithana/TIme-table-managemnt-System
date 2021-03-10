@@ -232,6 +232,7 @@ namespace Time_Table_managemnt
 			this.materialLabel31 = new MaterialSkin.Controls.MaterialLabel();
 			this.materialLabel30 = new MaterialSkin.Controls.MaterialLabel();
 			this.WmaterialTabSelector7 = new MaterialSkin.Controls.MaterialTabSelector();
+			this.dataGridView9 = new System.Windows.Forms.DataGridView();
 			this.materialTabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.Logopanel2.SuspendLayout();
@@ -297,6 +298,7 @@ namespace Time_Table_managemnt
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
 			this.tabPage17.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
+			this.tabPage18.SuspendLayout();
 			this.tabPage11.SuspendLayout();
 			this.Tab1panel2.SuspendLayout();
 			this.materialTabControl3.SuspendLayout();
@@ -312,6 +314,7 @@ namespace Time_Table_managemnt
 			this.tabPage23.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown6)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// materialTabControl1
@@ -2215,12 +2218,14 @@ namespace Time_Table_managemnt
 			// 
 			// tabPage18
 			// 
+			this.tabPage18.Controls.Add(this.dataGridView9);
 			this.tabPage18.Location = new System.Drawing.Point(4, 25);
 			this.tabPage18.Name = "tabPage18";
 			this.tabPage18.Size = new System.Drawing.Size(807, 471);
 			this.tabPage18.TabIndex = 3;
 			this.tabPage18.Text = "Not Available Times";
 			this.tabPage18.UseVisualStyleBackColor = true;
+			this.tabPage18.Click += new System.EventHandler(this.tabPage18_Click);
 			// 
 			// tabPage11
 			// 
@@ -2706,9 +2711,9 @@ namespace Time_Table_managemnt
 			// 
 			this.Wpanel2.Controls.Add(this.WmaterialTabControl8);
 			this.Wpanel2.Controls.Add(this.WmaterialTabSelector7);
-			this.Wpanel2.Location = new System.Drawing.Point(238, 247);
+			this.Wpanel2.Location = new System.Drawing.Point(257, 92);
 			this.Wpanel2.Name = "Wpanel2";
-			this.Wpanel2.Size = new System.Drawing.Size(697, 558);
+			this.Wpanel2.Size = new System.Drawing.Size(700, 558);
 			this.Wpanel2.TabIndex = 1;
 			// 
 			// WmaterialTabControl8
@@ -2919,9 +2924,21 @@ namespace Time_Table_managemnt
 			this.WmaterialTabSelector7.Location = new System.Drawing.Point(0, 0);
 			this.WmaterialTabSelector7.MouseState = MaterialSkin.MouseState.HOVER;
 			this.WmaterialTabSelector7.Name = "WmaterialTabSelector7";
-			this.WmaterialTabSelector7.Size = new System.Drawing.Size(697, 48);
+			this.WmaterialTabSelector7.Size = new System.Drawing.Size(700, 48);
 			this.WmaterialTabSelector7.TabIndex = 0;
 			this.WmaterialTabSelector7.Text = "WmaterialTabSelector";
+			// 
+			// dataGridView9
+			// 
+			this.dataGridView9.BackgroundColor = System.Drawing.Color.Azure;
+			this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dataGridView9.Dock = System.Windows.Forms.DockStyle.Top;
+			this.dataGridView9.Location = new System.Drawing.Point(0, 0);
+			this.dataGridView9.Name = "dataGridView9";
+			this.dataGridView9.RowHeadersWidth = 51;
+			this.dataGridView9.RowTemplate.Height = 24;
+			this.dataGridView9.Size = new System.Drawing.Size(807, 319);
+			this.dataGridView9.TabIndex = 4;
 			// 
 			// Form1
 			// 
@@ -3013,6 +3030,7 @@ namespace Time_Table_managemnt
 			this.tabPage17.ResumeLayout(false);
 			this.tabPage17.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
+			this.tabPage18.ResumeLayout(false);
 			this.tabPage11.ResumeLayout(false);
 			this.Tab1panel2.ResumeLayout(false);
 			this.materialTabControl3.ResumeLayout(false);
@@ -3032,6 +3050,7 @@ namespace Time_Table_managemnt
 			this.tabPage23.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown6)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.WnumericUpDown5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
 			this.ResumeLayout(false);
 
         }
@@ -3239,6 +3258,7 @@ namespace Time_Table_managemnt
 		private MaterialSkin.Controls.MaterialLabel materialLabel31;
 		private MaterialSkin.Controls.MaterialLabel materialLabel30;
 		private MaterialSkin.Controls.MaterialTabSelector WmaterialTabSelector7;
+		private System.Windows.Forms.DataGridView dataGridView9;
 	}
 }
 

@@ -336,5 +336,10 @@ namespace Time_Table_managemnt
         {
 
         }
-    }
+
+		private void tabPage18_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
