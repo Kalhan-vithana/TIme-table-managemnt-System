@@ -223,6 +223,7 @@ namespace Time_Table_managemnt
 			this.materialLabel30 = new MaterialSkin.Controls.MaterialLabel();
 			this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
 			this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
+			this.materialButton28 = new MaterialSkin.Controls.MaterialButton();
 			this.materialTabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.Logopanel2.SuspendLayout();
@@ -2727,6 +2728,7 @@ namespace Time_Table_managemnt
 			// 
 			// tabPage23
 			// 
+			this.tabPage23.Controls.Add(this.materialButton28);
 			this.tabPage23.Controls.Add(this.materialCheckbox2);
 			this.tabPage23.Controls.Add(this.materialCheckbox1);
 			this.tabPage23.Controls.Add(this.materialLabel30);
@@ -2779,6 +2781,24 @@ namespace Time_Table_managemnt
 			this.materialCheckbox2.TabIndex = 2;
 			this.materialCheckbox2.Text = "materialCheckbox2";
 			this.materialCheckbox2.UseVisualStyleBackColor = true;
+			// 
+			// materialButton28
+			// 
+			this.materialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.materialButton28.Depth = 0;
+			this.materialButton28.DrawShadows = true;
+			this.materialButton28.HighEmphasis = true;
+			this.materialButton28.Icon = null;
+			this.materialButton28.Location = new System.Drawing.Point(213, 162);
+			this.materialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.materialButton28.MouseState = MaterialSkin.MouseState.HOVER;
+			this.materialButton28.Name = "materialButton28";
+			this.materialButton28.Size = new System.Drawing.Size(166, 36);
+			this.materialButton28.TabIndex = 3;
+			this.materialButton28.Text = "materialButton28";
+			this.materialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.materialButton28.UseAccentColor = false;
+			this.materialButton28.UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 
@@ -3085,6 +3105,7 @@ namespace Time_Table_managemnt
 		private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
 		private MaterialSkin.Controls.MaterialLabel materialLabel30;
 		private MaterialSkin.Controls.MaterialTabSelector materialTabSelector7;
+		private MaterialSkin.Controls.MaterialButton materialButton28;
 	}
 }
 
