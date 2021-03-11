@@ -316,5 +316,20 @@ namespace Time_Table_managemnt
 		{
 
 		}
+
+		private void MWmaterialCheckbox2_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void materialCheckbox5_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void manageaddworkbut_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
