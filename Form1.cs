@@ -237,11 +237,6 @@ namespace Time_Table_managemnt
 
         }
 
-        private void materialButton16_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void materialComboBox7_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -267,16 +262,6 @@ namespace Time_Table_managemnt
 
         }
 
-        private void materialButton3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void Updatepanel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -285,11 +270,6 @@ namespace Time_Table_managemnt
         private void materialTabSelector1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void pictureBox13_Click(object sender, EventArgs e)
-        {
-          
         }
 
         private void pictureBox5_Click_1(object sender, EventArgs e)
@@ -315,11 +295,6 @@ namespace Time_Table_managemnt
         private void pictureBox11_Click_2(object sender, EventArgs e)
         {
             tagpanel2.Hide();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-            
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
