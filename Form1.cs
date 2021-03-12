@@ -38,10 +38,7 @@ namespace Time_Table_managemnt
           this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
             this.tagpanel2.Anchor = AnchorStyles.None;
 
-            tagpanel2.Location = new Point(
-      this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
-            this.tagpanel2.Anchor = AnchorStyles.None;
-
+     
 
         }
 
@@ -51,6 +48,14 @@ namespace Time_Table_managemnt
             Updatepanel2.Hide();
             Tag1panel.Hide();
             tagpanel2.Hide();
+            Lecpanel2.Hide();
+            paneManageLec.Hide();
+            SubjectPanalAddSubject.Hide();
+            SubjectManageSubpanal.Hide();
+            manageworkpanel.Hide();
+            addworkpanel.Hide();
+            SessionRoomPanel3.Hide();
+            panelManageSessionsRooms.Hide();
             panel1.Location = new Point(
      this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
             this.panel1.Anchor = AnchorStyles.None;
@@ -348,6 +353,114 @@ namespace Time_Table_managemnt
         }
 
         private void materialTextBox29_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialTabSelector7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ManageLec_Click(object sender, EventArgs e)
+        {
+            paneManageLec.Show();
+        }
+
+        private void AddLecs_Click(object sender, EventArgs e)
+        {
+            Lecpanel2.Show();
+        }
+
+        private void LecpictureBox_Click(object sender, EventArgs e)
+        {
+            Lecpanel2.Hide();
+        }
+
+        private void managelecpic_Click(object sender, EventArgs e)
+        {
+            paneManageLec.Hide();
+        }
+
+        private void AddSubbtn_Click(object sender, EventArgs e)
+        {
+            SubjectPanalAddSubject.Show();
+        }
+
+        private void Managesubbtn_Click(object sender, EventArgs e)
+        {
+
+            SubjectManageSubpanal.Show();
+        }
+
+        private void pictureBoxManagesub_Click(object sender, EventArgs e)
+        {
+            SubjectManageSubpanal.Hide();
+        }
+
+        private void pictureBoxSujectadd_Click(object sender, EventArgs e)
+        {
+            SubjectPanalAddSubject.Hide();
+        }
+
+        private void manageworkTabSelector_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void homeaddworkbut_Click(object sender, EventArgs e)
+        {
+            addworkpanel.Show();
+        }
+
+        private void manageaddworkbut_Click_1(object sender, EventArgs e)
+        {
+            manageworkpanel.Show();
+        }
+
+        private void manageworkpicBox_Click(object sender, EventArgs e)
+        {
+            manageworkpanel.Hide();
+           
+        }
+
+        private void addworkpicBox_Click(object sender, EventArgs e)
+        {
+            addworkpanel.Hide();
+        }
+
+        private void addroombtn_Click(object sender, EventArgs e)
+        {
+            SessionRoomPanel3.Show();
+        }
+
+        private void tabPage9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void manageSessionBtn_Click(object sender, EventArgs e)
+        {
+            panelManageSessionsRooms.Show();
+        }
+
+        private void pictureBoxRooms_Click(object sender, EventArgs e)
+        {
+            SessionRoomPanel3.Hide();
+            
+        }
+
+        private void pictureBoxMSRooms_Click(object sender, EventArgs e)
+        {
+            panelManageSessionsRooms.Hide();
+        }
+
+        private void pictureBoxSujectadd_Click_1(object sender, EventArgs e)
+        {
+            SubjectPanalAddSubject.Hide();
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
         {
 
         }
