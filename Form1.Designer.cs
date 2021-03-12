@@ -422,6 +422,41 @@ namespace Time_Table_managemnt
             this.elipseControl19 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl20 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl21 = new Time_Table_managemnt.ElipseControl();
+            this.MnageSessionSticker = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.manageSessionBtn = new MaterialSkin.Controls.MaterialButton();
+            this.AddRoomSticker = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.addroombtn = new MaterialSkin.Controls.MaterialButton();
+            this.panelManageSessionsRooms = new System.Windows.Forms.Panel();
+            this.MangeSessionRm1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.MangeSessionRm2 = new System.Windows.Forms.TabPage();
+            this.dataGridView10 = new System.Windows.Forms.DataGridView();
+            this.materialComboBox10 = new MaterialSkin.Controls.MaterialComboBox();
+            this.MSRClearBtn = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel72 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialComboBox11 = new MaterialSkin.Controls.MaterialComboBox();
+            this.materialLabel73 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel74 = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBoxMSRooms = new System.Windows.Forms.PictureBox();
+            this.MSRSubmitBtn = new MaterialSkin.Controls.MaterialButton();
+            this.ManageSessionRmBlue = new MaterialSkin.Controls.MaterialTabSelector();
+            this.SessionRoomPanel3 = new System.Windows.Forms.Panel();
+            this.RoomsBlue1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.Rooms2 = new MaterialSkin.Controls.MaterialTabControl();
+            this.Rooms3 = new System.Windows.Forms.TabPage();
+            this.RefreshRoomBtn2 = new MaterialSkin.Controls.MaterialButton();
+            this.AddRoomBtn2 = new MaterialSkin.Controls.MaterialButton();
+            this.dataGridViewRooms = new System.Windows.Forms.DataGridView();
+            this.pictureBoxRooms = new System.Windows.Forms.PictureBox();
+            this.tabPage26 = new System.Windows.Forms.TabPage();
+            this.tabPage27 = new System.Windows.Forms.TabPage();
+            this.materialButton30 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton31 = new MaterialSkin.Controls.MaterialButton();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.materialButton32 = new MaterialSkin.Controls.MaterialButton();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.Logopanel2.SuspendLayout();
@@ -542,6 +577,7 @@ namespace Time_Table_managemnt
             this.LocationIcon1.SuspendLayout();
             this.materialCard3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            this.tabPage9.SuspendLayout();
             this.tabPage10.SuspendLayout();
             this.Requirmentspanel2.SuspendLayout();
             this.materialTabControl2.SuspendLayout();
@@ -563,6 +599,23 @@ namespace Time_Table_managemnt
             this.tabPage21.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.MnageSessionSticker.SuspendLayout();
+            this.materialCard13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            this.AddRoomSticker.SuspendLayout();
+            this.materialCard14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            this.panelManageSessionsRooms.SuspendLayout();
+            this.MangeSessionRm1.SuspendLayout();
+            this.MangeSessionRm2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMSRooms)).BeginInit();
+            this.SessionRoomPanel3.SuspendLayout();
+            this.Rooms2.SuspendLayout();
+            this.Rooms3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRooms)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRooms)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -606,7 +659,7 @@ namespace Time_Table_managemnt
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage1.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage1.Size = new System.Drawing.Size(1173, 980);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "HOME";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -927,7 +980,7 @@ namespace Time_Table_managemnt
             this.pictureBox1.Location = new System.Drawing.Point(3, 2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1167, 737);
+            this.pictureBox1.Size = new System.Drawing.Size(1167, 976);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -946,7 +999,7 @@ namespace Time_Table_managemnt
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage2.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage2.Size = new System.Drawing.Size(1173, 980);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "lecturer";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1778,7 +1831,7 @@ namespace Time_Table_managemnt
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage3.Size = new System.Drawing.Size(1173, 980);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Students";
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
@@ -2498,7 +2551,7 @@ namespace Time_Table_managemnt
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1173, 741);
+            this.pictureBox2.Size = new System.Drawing.Size(1173, 980);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
@@ -2516,7 +2569,7 @@ namespace Time_Table_managemnt
             this.tabPage4.Location = new System.Drawing.Point(4, 39);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage4.Size = new System.Drawing.Size(1173, 980);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Subjects";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -3329,7 +3382,7 @@ namespace Time_Table_managemnt
             this.tabPage5.Location = new System.Drawing.Point(4, 39);
             this.tabPage5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage5.Size = new System.Drawing.Size(1173, 980);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Tags";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -3866,7 +3919,7 @@ namespace Time_Table_managemnt
             this.pictureBox6.Location = new System.Drawing.Point(0, 0);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1173, 741);
+            this.pictureBox6.Size = new System.Drawing.Size(1173, 980);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
@@ -3895,7 +3948,7 @@ namespace Time_Table_managemnt
             this.tabPage7.Location = new System.Drawing.Point(4, 39);
             this.tabPage7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage7.Size = new System.Drawing.Size(1173, 980);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "vcbn";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -4652,7 +4705,7 @@ namespace Time_Table_managemnt
             this.LocationHomePage.Location = new System.Drawing.Point(4, 39);
             this.LocationHomePage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocationHomePage.Name = "LocationHomePage";
-            this.LocationHomePage.Size = new System.Drawing.Size(1173, 741);
+            this.LocationHomePage.Size = new System.Drawing.Size(1173, 980);
             this.LocationHomePage.TabIndex = 7;
             this.LocationHomePage.Text = "Location";
             this.LocationHomePage.UseVisualStyleBackColor = true;
@@ -5231,11 +5284,17 @@ namespace Time_Table_managemnt
             // tabPage9
             // 
             this.tabPage9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage9.BackgroundImage")));
+            this.tabPage9.Controls.Add(this.SessionRoomPanel3);
+            this.tabPage9.Controls.Add(this.panelManageSessionsRooms);
+            this.tabPage9.Controls.Add(this.addroombtn);
+            this.tabPage9.Controls.Add(this.AddRoomSticker);
+            this.tabPage9.Controls.Add(this.manageSessionBtn);
+            this.tabPage9.Controls.Add(this.MnageSessionSticker);
             this.tabPage9.ImageKey = "icons8-dashboard-64.png";
             this.tabPage9.Location = new System.Drawing.Point(4, 39);
             this.tabPage9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage9.Size = new System.Drawing.Size(1173, 980);
             this.tabPage9.TabIndex = 8;
             this.tabPage9.Text = "Hall";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -5248,7 +5307,7 @@ namespace Time_Table_managemnt
             this.tabPage10.Location = new System.Drawing.Point(4, 39);
             this.tabPage10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage10.Size = new System.Drawing.Size(1173, 980);
             this.tabPage10.TabIndex = 9;
             this.tabPage10.Text = "Requirements";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -5518,7 +5577,7 @@ namespace Time_Table_managemnt
             this.tabPage11.Location = new System.Drawing.Point(4, 39);
             this.tabPage11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(1173, 741);
+            this.tabPage11.Size = new System.Drawing.Size(1173, 980);
             this.tabPage11.TabIndex = 10;
             this.tabPage11.Text = "TimeTable";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -6004,6 +6063,482 @@ namespace Time_Table_managemnt
             this.elipseControl21.CornerRadius = 50;
             this.elipseControl21.TargetControl = this.Logopanel2;
             // 
+            // MnageSessionSticker
+            // 
+            this.MnageSessionSticker.Controls.Add(this.materialCard13);
+            this.MnageSessionSticker.Location = new System.Drawing.Point(311, 176);
+            this.MnageSessionSticker.Name = "MnageSessionSticker";
+            this.MnageSessionSticker.Size = new System.Drawing.Size(201, 197);
+            this.MnageSessionSticker.TabIndex = 4;
+            // 
+            // materialCard13
+            // 
+            this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard13.Controls.Add(this.pictureBox27);
+            this.materialCard13.Depth = 0;
+            this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard13.Location = new System.Drawing.Point(14, 14);
+            this.materialCard13.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard13.Name = "materialCard13";
+            this.materialCard13.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard13.Size = new System.Drawing.Size(173, 170);
+            this.materialCard13.TabIndex = 0;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(13, 16);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(146, 138);
+            this.pictureBox27.TabIndex = 1;
+            this.pictureBox27.TabStop = false;
+            // 
+            // manageSessionBtn
+            // 
+            this.manageSessionBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.manageSessionBtn.Depth = 0;
+            this.manageSessionBtn.DrawShadows = true;
+            this.manageSessionBtn.HighEmphasis = true;
+            this.manageSessionBtn.Icon = null;
+            this.manageSessionBtn.Location = new System.Drawing.Point(311, 430);
+            this.manageSessionBtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.manageSessionBtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.manageSessionBtn.Name = "manageSessionBtn";
+            this.manageSessionBtn.Size = new System.Drawing.Size(201, 36);
+            this.manageSessionBtn.TabIndex = 20;
+            this.manageSessionBtn.Text = "Manage Session Rooms";
+            this.manageSessionBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.manageSessionBtn.UseAccentColor = false;
+            this.manageSessionBtn.UseVisualStyleBackColor = true;
+            // 
+            // AddRoomSticker
+            // 
+            this.AddRoomSticker.Controls.Add(this.materialCard14);
+            this.AddRoomSticker.Location = new System.Drawing.Point(686, 176);
+            this.AddRoomSticker.Name = "AddRoomSticker";
+            this.AddRoomSticker.Size = new System.Drawing.Size(201, 197);
+            this.AddRoomSticker.TabIndex = 21;
+            // 
+            // materialCard14
+            // 
+            this.materialCard14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard14.Controls.Add(this.pictureBox28);
+            this.materialCard14.Depth = 0;
+            this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard14.Location = new System.Drawing.Point(14, 14);
+            this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard14.Name = "materialCard14";
+            this.materialCard14.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard14.Size = new System.Drawing.Size(173, 170);
+            this.materialCard14.TabIndex = 0;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(13, 16);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(146, 138);
+            this.pictureBox28.TabIndex = 1;
+            this.pictureBox28.TabStop = false;
+            // 
+            // addroombtn
+            // 
+            this.addroombtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addroombtn.Depth = 0;
+            this.addroombtn.DrawShadows = true;
+            this.addroombtn.HighEmphasis = true;
+            this.addroombtn.Icon = null;
+            this.addroombtn.Location = new System.Drawing.Point(731, 430);
+            this.addroombtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addroombtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addroombtn.Name = "addroombtn";
+            this.addroombtn.Size = new System.Drawing.Size(105, 36);
+            this.addroombtn.TabIndex = 22;
+            this.addroombtn.Text = "Add Rooms";
+            this.addroombtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.addroombtn.UseAccentColor = false;
+            this.addroombtn.UseVisualStyleBackColor = true;
+            // 
+            // panelManageSessionsRooms
+            // 
+            this.panelManageSessionsRooms.BackColor = System.Drawing.Color.White;
+            this.panelManageSessionsRooms.Controls.Add(this.MangeSessionRm1);
+            this.panelManageSessionsRooms.Controls.Add(this.ManageSessionRmBlue);
+            this.panelManageSessionsRooms.Location = new System.Drawing.Point(194, 98);
+            this.panelManageSessionsRooms.Name = "panelManageSessionsRooms";
+            this.panelManageSessionsRooms.Size = new System.Drawing.Size(792, 575);
+            this.panelManageSessionsRooms.TabIndex = 23;
+            // 
+            // MangeSessionRm1
+            // 
+            this.MangeSessionRm1.Controls.Add(this.MangeSessionRm2);
+            this.MangeSessionRm1.Depth = 0;
+            this.MangeSessionRm1.Location = new System.Drawing.Point(3, 54);
+            this.MangeSessionRm1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.MangeSessionRm1.Multiline = true;
+            this.MangeSessionRm1.Name = "MangeSessionRm1";
+            this.MangeSessionRm1.SelectedIndex = 0;
+            this.MangeSessionRm1.Size = new System.Drawing.Size(786, 549);
+            this.MangeSessionRm1.TabIndex = 1;
+            // 
+            // MangeSessionRm2
+            // 
+            this.MangeSessionRm2.Controls.Add(this.dataGridView10);
+            this.MangeSessionRm2.Controls.Add(this.materialComboBox10);
+            this.MangeSessionRm2.Controls.Add(this.MSRClearBtn);
+            this.MangeSessionRm2.Controls.Add(this.materialLabel72);
+            this.MangeSessionRm2.Controls.Add(this.materialComboBox11);
+            this.MangeSessionRm2.Controls.Add(this.materialLabel73);
+            this.MangeSessionRm2.Controls.Add(this.materialLabel74);
+            this.MangeSessionRm2.Controls.Add(this.pictureBoxMSRooms);
+            this.MangeSessionRm2.Controls.Add(this.MSRSubmitBtn);
+            this.MangeSessionRm2.Location = new System.Drawing.Point(4, 25);
+            this.MangeSessionRm2.Name = "MangeSessionRm2";
+            this.MangeSessionRm2.Padding = new System.Windows.Forms.Padding(3);
+            this.MangeSessionRm2.Size = new System.Drawing.Size(778, 520);
+            this.MangeSessionRm2.TabIndex = 0;
+            this.MangeSessionRm2.Text = "Manage Session Rooms";
+            this.MangeSessionRm2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView10
+            // 
+            this.dataGridView10.BackgroundColor = System.Drawing.Color.MintCream;
+            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView10.Location = new System.Drawing.Point(27, 304);
+            this.dataGridView10.Name = "dataGridView10";
+            this.dataGridView10.RowHeadersWidth = 51;
+            this.dataGridView10.RowTemplate.Height = 24;
+            this.dataGridView10.Size = new System.Drawing.Size(321, 120);
+            this.dataGridView10.TabIndex = 25;
+            // 
+            // materialComboBox10
+            // 
+            this.materialComboBox10.AutoResize = false;
+            this.materialComboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox10.Depth = 0;
+            this.materialComboBox10.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox10.DropDownHeight = 174;
+            this.materialComboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox10.DropDownWidth = 121;
+            this.materialComboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox10.FormattingEnabled = true;
+            this.materialComboBox10.IntegralHeight = false;
+            this.materialComboBox10.ItemHeight = 43;
+            this.materialComboBox10.Location = new System.Drawing.Point(27, 115);
+            this.materialComboBox10.MaxDropDownItems = 4;
+            this.materialComboBox10.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox10.Name = "materialComboBox10";
+            this.materialComboBox10.Size = new System.Drawing.Size(282, 49);
+            this.materialComboBox10.StartIndex = 0;
+            this.materialComboBox10.TabIndex = 24;
+            // 
+            // MSRClearBtn
+            // 
+            this.MSRClearBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.MSRClearBtn.Depth = 0;
+            this.MSRClearBtn.DrawShadows = true;
+            this.MSRClearBtn.HighEmphasis = true;
+            this.MSRClearBtn.Icon = null;
+            this.MSRClearBtn.Location = new System.Drawing.Point(652, 441);
+            this.MSRClearBtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MSRClearBtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.MSRClearBtn.Name = "MSRClearBtn";
+            this.MSRClearBtn.Size = new System.Drawing.Size(66, 36);
+            this.MSRClearBtn.TabIndex = 23;
+            this.MSRClearBtn.Text = "Clear";
+            this.MSRClearBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.MSRClearBtn.UseAccentColor = false;
+            this.MSRClearBtn.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel72
+            // 
+            this.materialLabel72.AutoSize = true;
+            this.materialLabel72.Depth = 0;
+            this.materialLabel72.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel72.Location = new System.Drawing.Point(32, 279);
+            this.materialLabel72.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel72.Name = "materialLabel72";
+            this.materialLabel72.Size = new System.Drawing.Size(121, 19);
+            this.materialLabel72.TabIndex = 22;
+            this.materialLabel72.Text = "Selected Session";
+            // 
+            // materialComboBox11
+            // 
+            this.materialComboBox11.AutoResize = false;
+            this.materialComboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox11.Depth = 0;
+            this.materialComboBox11.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox11.DropDownHeight = 174;
+            this.materialComboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox11.DropDownWidth = 121;
+            this.materialComboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox11.FormattingEnabled = true;
+            this.materialComboBox11.IntegralHeight = false;
+            this.materialComboBox11.ItemHeight = 43;
+            this.materialComboBox11.Location = new System.Drawing.Point(35, 211);
+            this.materialComboBox11.MaxDropDownItems = 4;
+            this.materialComboBox11.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox11.Name = "materialComboBox11";
+            this.materialComboBox11.Size = new System.Drawing.Size(282, 49);
+            this.materialComboBox11.StartIndex = 0;
+            this.materialComboBox11.TabIndex = 21;
+            // 
+            // materialLabel73
+            // 
+            this.materialLabel73.AutoSize = true;
+            this.materialLabel73.Depth = 0;
+            this.materialLabel73.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel73.Location = new System.Drawing.Point(32, 189);
+            this.materialLabel73.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel73.Name = "materialLabel73";
+            this.materialLabel73.Size = new System.Drawing.Size(90, 19);
+            this.materialLabel73.TabIndex = 20;
+            this.materialLabel73.Text = "Select Room";
+            // 
+            // materialLabel74
+            // 
+            this.materialLabel74.AutoSize = true;
+            this.materialLabel74.Depth = 0;
+            this.materialLabel74.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel74.Location = new System.Drawing.Point(32, 83);
+            this.materialLabel74.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel74.Name = "materialLabel74";
+            this.materialLabel74.Size = new System.Drawing.Size(108, 19);
+            this.materialLabel74.TabIndex = 19;
+            this.materialLabel74.Text = " Select Session";
+            // 
+            // pictureBoxMSRooms
+            // 
+            this.pictureBoxMSRooms.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxMSRooms.BackgroundImage")));
+            this.pictureBoxMSRooms.Location = new System.Drawing.Point(711, 6);
+            this.pictureBoxMSRooms.Name = "pictureBoxMSRooms";
+            this.pictureBoxMSRooms.Size = new System.Drawing.Size(42, 41);
+            this.pictureBoxMSRooms.TabIndex = 18;
+            this.pictureBoxMSRooms.TabStop = false;
+            // 
+            // MSRSubmitBtn
+            // 
+            this.MSRSubmitBtn.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.MSRSubmitBtn.Depth = 0;
+            this.MSRSubmitBtn.DrawShadows = true;
+            this.MSRSubmitBtn.HighEmphasis = true;
+            this.MSRSubmitBtn.Icon = null;
+            this.MSRSubmitBtn.Location = new System.Drawing.Point(495, 441);
+            this.MSRSubmitBtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.MSRSubmitBtn.MouseState = MaterialSkin.MouseState.HOVER;
+            this.MSRSubmitBtn.Name = "MSRSubmitBtn";
+            this.MSRSubmitBtn.Size = new System.Drawing.Size(75, 36);
+            this.MSRSubmitBtn.TabIndex = 17;
+            this.MSRSubmitBtn.Text = "Submit";
+            this.MSRSubmitBtn.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.MSRSubmitBtn.UseAccentColor = false;
+            this.MSRSubmitBtn.UseVisualStyleBackColor = true;
+            // 
+            // ManageSessionRmBlue
+            // 
+            this.ManageSessionRmBlue.BaseTabControl = this.MangeSessionRm1;
+            this.ManageSessionRmBlue.Depth = 0;
+            this.ManageSessionRmBlue.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.ManageSessionRmBlue.Location = new System.Drawing.Point(0, 0);
+            this.ManageSessionRmBlue.MouseState = MaterialSkin.MouseState.HOVER;
+            this.ManageSessionRmBlue.Name = "ManageSessionRmBlue";
+            this.ManageSessionRmBlue.Size = new System.Drawing.Size(789, 48);
+            this.ManageSessionRmBlue.TabIndex = 0;
+            // 
+            // SessionRoomPanel3
+            // 
+            this.SessionRoomPanel3.Controls.Add(this.RoomsBlue1);
+            this.SessionRoomPanel3.Controls.Add(this.Rooms2);
+            this.SessionRoomPanel3.Controls.Add(this.materialButton30);
+            this.SessionRoomPanel3.Controls.Add(this.materialButton31);
+            this.SessionRoomPanel3.Controls.Add(this.numericUpDown7);
+            this.SessionRoomPanel3.Controls.Add(this.materialButton32);
+            this.SessionRoomPanel3.Location = new System.Drawing.Point(155, 350);
+            this.SessionRoomPanel3.Name = "SessionRoomPanel3";
+            this.SessionRoomPanel3.Size = new System.Drawing.Size(828, 487);
+            this.SessionRoomPanel3.TabIndex = 24;
+            // 
+            // RoomsBlue1
+            // 
+            this.RoomsBlue1.BaseTabControl = this.Rooms2;
+            this.RoomsBlue1.Depth = 0;
+            this.RoomsBlue1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RoomsBlue1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.RoomsBlue1.Location = new System.Drawing.Point(0, 0);
+            this.RoomsBlue1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.RoomsBlue1.Name = "RoomsBlue1";
+            this.RoomsBlue1.Size = new System.Drawing.Size(828, 48);
+            this.RoomsBlue1.TabIndex = 29;
+            this.RoomsBlue1.Text = "materialTabSelector7";
+            // 
+            // Rooms2
+            // 
+            this.Rooms2.Controls.Add(this.Rooms3);
+            this.Rooms2.Controls.Add(this.tabPage26);
+            this.Rooms2.Controls.Add(this.tabPage27);
+            this.Rooms2.Depth = 0;
+            this.Rooms2.Location = new System.Drawing.Point(3, 31);
+            this.Rooms2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Rooms2.Multiline = true;
+            this.Rooms2.Name = "Rooms2";
+            this.Rooms2.SelectedIndex = 0;
+            this.Rooms2.Size = new System.Drawing.Size(822, 431);
+            this.Rooms2.TabIndex = 28;
+            // 
+            // Rooms3
+            // 
+            this.Rooms3.Controls.Add(this.RefreshRoomBtn2);
+            this.Rooms3.Controls.Add(this.AddRoomBtn2);
+            this.Rooms3.Controls.Add(this.dataGridViewRooms);
+            this.Rooms3.Controls.Add(this.pictureBoxRooms);
+            this.Rooms3.Location = new System.Drawing.Point(4, 25);
+            this.Rooms3.Name = "Rooms3";
+            this.Rooms3.Padding = new System.Windows.Forms.Padding(3);
+            this.Rooms3.Size = new System.Drawing.Size(814, 402);
+            this.Rooms3.TabIndex = 0;
+            this.Rooms3.Text = "Session";
+            this.Rooms3.UseVisualStyleBackColor = true;
+            // 
+            // RefreshRoomBtn2
+            // 
+            this.RefreshRoomBtn2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.RefreshRoomBtn2.Depth = 0;
+            this.RefreshRoomBtn2.DrawShadows = true;
+            this.RefreshRoomBtn2.HighEmphasis = true;
+            this.RefreshRoomBtn2.Icon = null;
+            this.RefreshRoomBtn2.Location = new System.Drawing.Point(434, 330);
+            this.RefreshRoomBtn2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.RefreshRoomBtn2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.RefreshRoomBtn2.Name = "RefreshRoomBtn2";
+            this.RefreshRoomBtn2.Size = new System.Drawing.Size(84, 36);
+            this.RefreshRoomBtn2.TabIndex = 33;
+            this.RefreshRoomBtn2.Text = "Refresh";
+            this.RefreshRoomBtn2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.RefreshRoomBtn2.UseAccentColor = false;
+            this.RefreshRoomBtn2.UseVisualStyleBackColor = true;
+            // 
+            // AddRoomBtn2
+            // 
+            this.AddRoomBtn2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.AddRoomBtn2.Depth = 0;
+            this.AddRoomBtn2.DrawShadows = true;
+            this.AddRoomBtn2.HighEmphasis = true;
+            this.AddRoomBtn2.Icon = null;
+            this.AddRoomBtn2.Location = new System.Drawing.Point(153, 330);
+            this.AddRoomBtn2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.AddRoomBtn2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.AddRoomBtn2.Name = "AddRoomBtn2";
+            this.AddRoomBtn2.Size = new System.Drawing.Size(96, 36);
+            this.AddRoomBtn2.TabIndex = 32;
+            this.AddRoomBtn2.Text = "Add Room";
+            this.AddRoomBtn2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.AddRoomBtn2.UseAccentColor = false;
+            this.AddRoomBtn2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewRooms
+            // 
+            this.dataGridViewRooms.BackgroundColor = System.Drawing.Color.MintCream;
+            this.dataGridViewRooms.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewRooms.Location = new System.Drawing.Point(25, 40);
+            this.dataGridViewRooms.Name = "dataGridViewRooms";
+            this.dataGridViewRooms.RowHeadersWidth = 51;
+            this.dataGridViewRooms.RowTemplate.Height = 24;
+            this.dataGridViewRooms.Size = new System.Drawing.Size(602, 189);
+            this.dataGridViewRooms.TabIndex = 31;
+            // 
+            // pictureBoxRooms
+            // 
+            this.pictureBoxRooms.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxRooms.BackgroundImage")));
+            this.pictureBoxRooms.Location = new System.Drawing.Point(747, 40);
+            this.pictureBoxRooms.Name = "pictureBoxRooms";
+            this.pictureBoxRooms.Size = new System.Drawing.Size(43, 44);
+            this.pictureBoxRooms.TabIndex = 30;
+            this.pictureBoxRooms.TabStop = false;
+            // 
+            // tabPage26
+            // 
+            this.tabPage26.Location = new System.Drawing.Point(4, 25);
+            this.tabPage26.Name = "tabPage26";
+            this.tabPage26.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage26.Size = new System.Drawing.Size(814, 402);
+            this.tabPage26.TabIndex = 1;
+            this.tabPage26.Text = "Consecutive";
+            this.tabPage26.UseVisualStyleBackColor = true;
+            // 
+            // tabPage27
+            // 
+            this.tabPage27.Location = new System.Drawing.Point(4, 25);
+            this.tabPage27.Name = "tabPage27";
+            this.tabPage27.Size = new System.Drawing.Size(814, 402);
+            this.tabPage27.TabIndex = 2;
+            this.tabPage27.Text = "Not Available";
+            this.tabPage27.UseVisualStyleBackColor = true;
+            // 
+            // materialButton30
+            // 
+            this.materialButton30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton30.Depth = 0;
+            this.materialButton30.DrawShadows = true;
+            this.materialButton30.HighEmphasis = true;
+            this.materialButton30.Icon = null;
+            this.materialButton30.Location = new System.Drawing.Point(536, 567);
+            this.materialButton30.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton30.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton30.Name = "materialButton30";
+            this.materialButton30.Size = new System.Drawing.Size(66, 36);
+            this.materialButton30.TabIndex = 27;
+            this.materialButton30.Text = "Clear";
+            this.materialButton30.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton30.UseAccentColor = false;
+            this.materialButton30.UseVisualStyleBackColor = true;
+            // 
+            // materialButton31
+            // 
+            this.materialButton31.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton31.Depth = 0;
+            this.materialButton31.DrawShadows = true;
+            this.materialButton31.HighEmphasis = true;
+            this.materialButton31.Icon = null;
+            this.materialButton31.Location = new System.Drawing.Point(391, 567);
+            this.materialButton31.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton31.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton31.Name = "materialButton31";
+            this.materialButton31.Size = new System.Drawing.Size(73, 36);
+            this.materialButton31.TabIndex = 26;
+            this.materialButton31.Text = "Delete";
+            this.materialButton31.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton31.UseAccentColor = false;
+            this.materialButton31.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.Location = new System.Drawing.Point(43, 543);
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDown7.TabIndex = 20;
+            // 
+            // materialButton32
+            // 
+            this.materialButton32.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton32.Depth = 0;
+            this.materialButton32.DrawShadows = true;
+            this.materialButton32.HighEmphasis = true;
+            this.materialButton32.Icon = null;
+            this.materialButton32.Location = new System.Drawing.Point(248, 567);
+            this.materialButton32.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton32.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton32.Name = "materialButton32";
+            this.materialButton32.Size = new System.Drawing.Size(77, 36);
+            this.materialButton32.TabIndex = 0;
+            this.materialButton32.Text = "update";
+            this.materialButton32.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton32.UseAccentColor = false;
+            this.materialButton32.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -6160,6 +6695,8 @@ namespace Time_Table_managemnt
             this.LocationIcon1.ResumeLayout(false);
             this.materialCard3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.tabPage10.ResumeLayout(false);
             this.Requirmentspanel2.ResumeLayout(false);
             this.materialTabControl2.ResumeLayout(false);
@@ -6187,6 +6724,26 @@ namespace Time_Table_managemnt
             this.tabPage21.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.MnageSessionSticker.ResumeLayout(false);
+            this.materialCard13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            this.AddRoomSticker.ResumeLayout(false);
+            this.materialCard14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            this.panelManageSessionsRooms.ResumeLayout(false);
+            this.MangeSessionRm1.ResumeLayout(false);
+            this.MangeSessionRm2.ResumeLayout(false);
+            this.MangeSessionRm2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMSRooms)).EndInit();
+            this.SessionRoomPanel3.ResumeLayout(false);
+            this.SessionRoomPanel3.PerformLayout();
+            this.Rooms2.ResumeLayout(false);
+            this.Rooms3.ResumeLayout(false);
+            this.Rooms3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRooms)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRooms)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -6584,6 +7141,41 @@ namespace Time_Table_managemnt
         private MaterialSkin.Controls.MaterialLabel materialLabel71;
         private System.Windows.Forms.PictureBox pictureBoxManagesub;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelectormanagesub;
+        private System.Windows.Forms.Panel SessionRoomPanel3;
+        private MaterialSkin.Controls.MaterialTabSelector RoomsBlue1;
+        private MaterialSkin.Controls.MaterialTabControl Rooms2;
+        private System.Windows.Forms.TabPage Rooms3;
+        private MaterialSkin.Controls.MaterialButton RefreshRoomBtn2;
+        private MaterialSkin.Controls.MaterialButton AddRoomBtn2;
+        private System.Windows.Forms.DataGridView dataGridViewRooms;
+        private System.Windows.Forms.PictureBox pictureBoxRooms;
+        private System.Windows.Forms.TabPage tabPage26;
+        private System.Windows.Forms.TabPage tabPage27;
+        private MaterialSkin.Controls.MaterialButton materialButton30;
+        private MaterialSkin.Controls.MaterialButton materialButton31;
+        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private MaterialSkin.Controls.MaterialButton materialButton32;
+        private System.Windows.Forms.Panel panelManageSessionsRooms;
+        private MaterialSkin.Controls.MaterialTabControl MangeSessionRm1;
+        private System.Windows.Forms.TabPage MangeSessionRm2;
+        private System.Windows.Forms.DataGridView dataGridView10;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox10;
+        private MaterialSkin.Controls.MaterialButton MSRClearBtn;
+        private MaterialSkin.Controls.MaterialLabel materialLabel72;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox11;
+        private MaterialSkin.Controls.MaterialLabel materialLabel73;
+        private MaterialSkin.Controls.MaterialLabel materialLabel74;
+        private System.Windows.Forms.PictureBox pictureBoxMSRooms;
+        private MaterialSkin.Controls.MaterialButton MSRSubmitBtn;
+        private MaterialSkin.Controls.MaterialTabSelector ManageSessionRmBlue;
+        private MaterialSkin.Controls.MaterialButton addroombtn;
+        private System.Windows.Forms.FlowLayoutPanel AddRoomSticker;
+        private MaterialSkin.Controls.MaterialCard materialCard14;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private MaterialSkin.Controls.MaterialButton manageSessionBtn;
+        private System.Windows.Forms.FlowLayoutPanel MnageSessionSticker;
+        private MaterialSkin.Controls.MaterialCard materialCard13;
+        private System.Windows.Forms.PictureBox pictureBox27;
     }
 }
 
