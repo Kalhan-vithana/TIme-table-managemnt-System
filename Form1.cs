@@ -331,5 +331,25 @@ namespace Time_Table_managemnt
 		{
 
 		}
-	}
+
+        private void materialLabel47_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialLabel45_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialTextBox29_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
