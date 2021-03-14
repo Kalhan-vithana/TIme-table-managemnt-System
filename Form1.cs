@@ -507,5 +507,30 @@ namespace Time_Table_managemnt
         {
             AddLocationPanel1.Hide();
         }
+
+        private void Clearlec_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown10_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown13_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialLabel82_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialLabel83_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
