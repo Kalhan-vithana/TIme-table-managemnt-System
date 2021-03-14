@@ -464,5 +464,20 @@ namespace Time_Table_managemnt
         {
 
         }
-    }
+
+		private void numericUpDown7_ValueChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void UNSmaterialLabel49_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void UNSrefreshbut_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
