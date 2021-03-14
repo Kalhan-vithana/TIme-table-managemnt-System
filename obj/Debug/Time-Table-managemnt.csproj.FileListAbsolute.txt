@@ -106,7 +106,6 @@ C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\bin\Debug\Time-Ta
 C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\bin\Debug\Time-Table-managemnt.exe
 C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\bin\Debug\Time-Table-managemnt.pdb
 C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\bin\Debug\MaterialSkin.dll
-C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\obj\Debug\Time-Table-managemnt.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Add_Tag.resources
 C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.AddStudent.resources
 C:\Users\HP\Desktop\New folder (9)\TIme-table-managemnt-System\obj\Debug\Time_Table_managemnt.Delete_Tags.resources

@@ -27,23 +27,70 @@ namespace Time_Table_managemnt
       
             
             Updatepanel2.Location = new Point(
-              this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+              this.ClientSize.Width / 2 - Updatepanel2.Size.Width / 2, this.ClientSize.Height / 2 - Updatepanel2.Size.Height / 2);
             this.Updatepanel2.Anchor = AnchorStyles.None;
 
             Tag1panel.Location = new Point(
-            this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.ClientSize.Width / 2 - Tag1panel.Size.Width / 2, this.ClientSize.Height / 2 - Tag1panel.Size.Height / 2);
             this.Tag1panel.Anchor = AnchorStyles.None;
 
-            tagpanel2.Location = new Point(
-          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
-            this.tagpanel2.Anchor = AnchorStyles.None;
 
-     
+            paneManageLec.Location = new Point(
+          this.ClientSize.Width / 2 - paneManageLec.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.paneManageLec.Anchor = AnchorStyles.None;
+
+            SubjectPanalAddSubject.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.SubjectPanalAddSubject.Anchor = AnchorStyles.None;
+
+            SubjectManageSubpanal.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.SubjectManageSubpanal.Anchor = AnchorStyles.None;
+
+            manageworkpanel.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.manageworkpanel.Anchor = AnchorStyles.None;
+
+            addworkpanel.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.addworkpanel.Anchor = AnchorStyles.None;
+
+            SessionRoomPanel3.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.SessionRoomPanel3.Anchor = AnchorStyles.None;
+
+            panelManageSessionsRooms.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.panelManageSessionsRooms.Anchor = AnchorStyles.None;
+
+            AddLocationPanel1.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.AddLocationPanel1.Anchor = AnchorStyles.None;
+
+            DisplayLocationPanel.Location = new Point(
+          this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.DisplayLocationPanel.Anchor = AnchorStyles.None;
+
+            addSssionpanel.Location = new Point(
+    this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.addSssionpanel.Anchor = AnchorStyles.None;
+
+            panelManageSession.Location = new Point(
+   this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.panelManageSession.Anchor = AnchorStyles.None;
+
+            Lecpanel2.Location = new Point(
+ this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
+            this.Lecpanel2.Anchor = AnchorStyles.None;
+
+        
+
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             panel1.Hide();
             Updatepanel2.Hide();
             Tag1panel.Hide();
@@ -58,11 +105,23 @@ namespace Time_Table_managemnt
             panelManageSessionsRooms.Hide();
             AddLocationPanel1.Hide();
             DisplayLocationPanel.Hide();
+            addSssionpanel.Hide();
+            panelManageSession.Hide();
+
             panel1.Location = new Point(
      this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
             this.panel1.Anchor = AnchorStyles.None;
 
-           
+            tagpanel2.Location = new Point(
+        this.ClientSize.Width / 2 - tagpanel2.Size.Width / 2, this.ClientSize.Height / 2 - tagpanel2.Size.Height / 2);
+            this.tagpanel2.Anchor = AnchorStyles.None;
+
+
+          
+
+
+
+
 
         }
 
@@ -529,6 +588,31 @@ namespace Time_Table_managemnt
         }
 
         private void materialLabel83_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddSessionbtn_Click(object sender, EventArgs e)
+        {
+            addSssionpanel.Show();
+        }
+
+        private void managesebtn_Click(object sender, EventArgs e)
+        {
+            panelManageSession.Show();
+        }
+
+        private void pictureBoxAddSession_Click(object sender, EventArgs e)
+        {
+            addSssionpanel.Hide();
+        }
+
+        private void pictureBoxManageSession_Click(object sender, EventArgs e)
+        {
+            panelManageSession.Hide();
+        }
+
+        private void flowLayoutPanel6_Paint(object sender, PaintEventArgs e)
         {
 
         }
