@@ -56,9 +56,12 @@ namespace Time_Table_managemnt
             addworkpanel.Hide();
             SessionRoomPanel3.Hide();
             panelManageSessionsRooms.Hide();
+            AddLocationPanel1.Hide();
+            DisplayLocationPanel.Hide();
             panel1.Location = new Point(
      this.ClientSize.Width / 2 - panel1.Size.Width / 2, this.ClientSize.Height / 2 - panel1.Size.Height / 2);
             this.panel1.Anchor = AnchorStyles.None;
+
            
 
         }
@@ -479,5 +482,30 @@ namespace Time_Table_managemnt
 		{
 
 		}
-	}
+
+        private void pictureBoxDisplayLoc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBoxDisplayLoc_Click_1(object sender, EventArgs e)
+        {
+            DisplayLocationPanel.Hide();
+        }
+
+        private void LocationIcon2Btn_Click(object sender, EventArgs e)
+        {
+            DisplayLocationPanel.Show();
+        }
+
+        private void LocationIcon1Btn_Click(object sender, EventArgs e)
+        {
+            AddLocationPanel1.Show();
+        }
+
+        private void pictureBoxAddLoc_Click(object sender, EventArgs e)
+        {
+            AddLocationPanel1.Hide();
+        }
+    }
 }
