@@ -117,12 +117,19 @@ namespace Time_Table_managemnt
             this.tagpanel2.Anchor = AnchorStyles.None;
 
 
-          
 
 
 
 
+            fillchart();
 
+        }
+
+        private void fillchart()
+        {
+            chart1.Series["salary"].Points.AddXY("ajay", "1000");
+            chart1.Series["salary"].Points.AddXY("ajay", "2000");
+            chart1.Titles.Add("salrychart");
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -190,7 +197,9 @@ namespace Time_Table_managemnt
 
         private void materialButton7_Click_1(object sender, EventArgs e)
         {
-           
+            AddStudent std = new AddStudent();
+            std.Show();
+            std.BringToFront();
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
