@@ -330,22 +330,22 @@ namespace Time_Table_managemnt
 
         private void materialComboBox5_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            //sathmaaaaa
         }
 
         private void materialLabel19_Click(object sender, EventArgs e)
         {
-
+            //dananjani
         }
 
         private void Updatepanel2_Paint(object sender, PaintEventArgs e)
         {
-
+            //danjiii
         }
 
         private void materialTabSelector1_Click(object sender, EventArgs e)
         {
-
+            //sathmaaad
         }
 
         private void pictureBox5_Click_1(object sender, EventArgs e)
@@ -568,17 +568,17 @@ namespace Time_Table_managemnt
 
         private void LocationIcon1Btn_Click(object sender, EventArgs e)
         {
-            AddLocationPanel1.Show();
+           // AddLocationPanel1.Show();
         }
 
         private void pictureBoxAddLoc_Click(object sender, EventArgs e)
         {
-            AddLocationPanel1.Hide();
+           // AddLocationPanel1.Hide();
         }
 
         private void Clearlec_Click(object sender, EventArgs e)
         {
-
+            //AddLocationPanel1.Show();
         }
 
         private void numericUpDown10_ValueChanged(object sender, EventArgs e)
