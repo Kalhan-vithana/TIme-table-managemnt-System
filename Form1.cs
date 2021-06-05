@@ -593,7 +593,7 @@ namespace Time_Table_managemnt
 
         private void materialLabel82_Click(object sender, EventArgs e)
         {
-
+            //addSssionpanel.Hide();
         }
 
         private void materialLabel83_Click(object sender, EventArgs e)
@@ -603,7 +603,7 @@ namespace Time_Table_managemnt
 
         private void AddSessionbtn_Click(object sender, EventArgs e)
         {
-            addSssionpanel.Show();
+            //addSssionpanel.Show();
         }
 
         private void managesebtn_Click(object sender, EventArgs e)
