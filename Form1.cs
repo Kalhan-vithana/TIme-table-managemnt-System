@@ -588,7 +588,7 @@ namespace Time_Table_managemnt
 
         private void numericUpDown13_ValueChanged(object sender, EventArgs e)
         {
-
+            //newww
         }
 
         private void materialLabel82_Click(object sender, EventArgs e)
@@ -598,7 +598,7 @@ namespace Time_Table_managemnt
 
         private void materialLabel83_Click(object sender, EventArgs e)
         {
-
+            //neeww
         }
 
         private void AddSessionbtn_Click(object sender, EventArgs e)
