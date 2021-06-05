@@ -70,6 +70,9 @@ namespace Time_Table_managemnt
 
         private void materialCard1_Paint(object sender, PaintEventArgs e)
         {
+            //AddStudent std = new AddStudent();
+            //std.Show();
+            //this.Visible = false;
 
         }
 
@@ -344,10 +347,15 @@ namespace Time_Table_managemnt
 
         private void tabPage8_Click_1(object sender, EventArgs e)
         {
-
+            // chart
         }
 
         private void materialTextBox29_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
         {
 
         }
