@@ -60,6 +60,7 @@ namespace Time_Table_managemnt
             this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.Dashboardpanel2 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -609,7 +610,6 @@ namespace Time_Table_managemnt
             this.elipseControl44 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl45 = new Time_Table_managemnt.ElipseControl();
             this.elipseControl46 = new Time_Table_managemnt.ElipseControl();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.Logopanel2.SuspendLayout();
@@ -625,6 +625,7 @@ namespace Time_Table_managemnt
             this.materialCardHomepage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.Dashboardpanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
@@ -813,7 +814,6 @@ namespace Time_Table_managemnt
             this.tabPage21.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -1160,6 +1160,24 @@ namespace Time_Table_managemnt
             this.Dashboardpanel2.Name = "Dashboardpanel2";
             this.Dashboardpanel2.Size = new System.Drawing.Size(720, 386);
             this.Dashboardpanel2.TabIndex = 1;
+            // 
+            // chart1
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(65, 88);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.Legend = "Legend1";
+            series1.Name = "salary";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(455, 247);
+            this.chart1.TabIndex = 1;
+            this.chart1.Text = "chart1";
             // 
             // pictureBox13
             // 
@@ -5760,6 +5778,7 @@ namespace Time_Table_managemnt
             this.tabPage18.TabIndex = 0;
             this.tabPage18.Text = "manage Location";
             this.tabPage18.UseVisualStyleBackColor = true;
+            this.tabPage18.Click += new System.EventHandler(this.tabPage18_Click_1);
             // 
             // materialRadioButton4
             // 
@@ -8862,24 +8881,6 @@ namespace Time_Table_managemnt
             this.elipseControl46.CornerRadius = 50;
             this.elipseControl46.TargetControl = this.CAMnageSessionSticker;
             // 
-            // chart1
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(65, 88);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series1.Legend = "Legend1";
-            series1.Name = "salary";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(455, 247);
-            this.chart1.TabIndex = 1;
-            this.chart1.Text = "chart1";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -8913,6 +8914,7 @@ namespace Time_Table_managemnt
             this.materialCardHomepage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.Dashboardpanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
@@ -9136,7 +9138,6 @@ namespace Time_Table_managemnt
             this.tabPage21.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }

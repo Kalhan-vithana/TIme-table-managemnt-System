@@ -625,5 +625,18 @@ namespace Time_Table_managemnt
         {
             //commit
         }
+
+        private void tabPage18_Click_1(object sender, EventArgs e)
+        {
+            //preparedStmt.setString(1, name);
+            //email
+            //preparedStmt.setString(2, email);
+            //nic
+            //preparedStmt.setString(2, nic);
+            //preparedStmt.setString(2, phnnumber);
+            //preparedStmt.setString(4, address);
+            //preparedStmt.setInt(5, Integer.parseInt(ID));
+            // execute the statement
+        }
     }
 }
